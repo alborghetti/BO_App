@@ -1,0 +1,7326 @@
+{
+  "name": "modules",
+  "children": [
+    {
+      "name": "AC",
+      "children": [
+        {
+          "name": "AC",
+          "children": [
+            {
+              "name": "TFC_TEMPL_LANG",
+              "size": 4160
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AP",
+      "children": [
+        {
+          "name": "AP-CFG",
+          "children": [
+            {
+              "name": "COMM_CFGVALTX",
+              "size": 1008
+            }
+          ]
+        },
+        {
+          "name": "AP-MD",
+          "children": [
+            {
+              "name": "BUT000",
+              "size": 1152
+            },
+            {
+              "name": "COMC_IL_TYPE_TXT",
+              "size": 1792
+            },
+            {
+              "name": "TB003B",
+              "size": 1416
+            },
+            {
+              "name": "TB003T",
+              "size": 1272
+            },
+            {
+              "name": "TBZ0B",
+              "size": 2016
+            },
+            {
+              "name": "TBZ0N",
+              "size": 1200
+            },
+            {
+              "name": "TBZ0R",
+              "size": 2104
+            },
+            {
+              "name": "TBZ0T",
+              "size": 2032
+            },
+            {
+              "name": "TBZ1F",
+              "size": 1184
+            },
+            {
+              "name": "TBZ3B",
+              "size": 10544
+            },
+            {
+              "name": "TBZ3D",
+              "size": 18888
+            },
+            {
+              "name": "TBZ3E",
+              "size": 1336
+            },
+            {
+              "name": "TBZ3F",
+              "size": 19400
+            },
+            {
+              "name": "TBZ3M",
+              "size": 1464
+            },
+            {
+              "name": "TBZ3R",
+              "size": 11592
+            },
+            {
+              "name": "TBZ3T",
+              "size": 1768
+            },
+            {
+              "name": "TBZ3W",
+              "size": 1584
+            },
+            {
+              "name": "TBZ3X",
+              "size": 46232
+            },
+            {
+              "name": "TBZ4T",
+              "size": 9768
+            }
+          ]
+        },
+        {
+          "name": "AP-PPE",
+          "children": [
+            {
+              "name": "CTXTSCR",
+              "size": 1872
+            },
+            {
+              "name": "CTXTTAB",
+              "size": 2816
+            }
+          ]
+        },
+        {
+          "name": "AP-TTE",
+          "children": [
+            {
+              "name": "TTEC_DT_TEXTS",
+              "size": 2776
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BC",
+      "children": [
+        {
+          "name": "BC-ABA",
+          "children": [
+            {
+              "name": "ABAPHTML",
+              "size": 6280
+            },
+            {
+              "name": "INDX",
+              "size": 27384
+            },
+            {
+              "name": "SATR_TAB",
+              "size": 52560
+            },
+            {
+              "name": "TCVIEW",
+              "size": 6896
+            },
+            {
+              "name": "TPRI_DEF",
+              "size": 1632
+            },
+            {
+              "name": "VARI",
+              "size": 82592
+            },
+            {
+              "name": "VARID",
+              "size": 9216
+            },
+            {
+              "name": "VARIS",
+              "size": 1984
+            },
+            {
+              "name": "VARIT",
+              "size": 50096
+            }
+          ]
+        },
+        {
+          "name": "BC-BMT",
+          "children": [
+            {
+              "name": "HRIADATANR",
+              "size": 36128
+            },
+            {
+              "name": "HRITABNR",
+              "size": 6144
+            },
+            {
+              "name": "HRP1000",
+              "size": 53824
+            },
+            {
+              "name": "HRP1001",
+              "size": 103600
+            },
+            {
+              "name": "HRP1002",
+              "size": 2424
+            },
+            {
+              "name": "HRPAD007",
+              "size": 17112
+            },
+            {
+              "name": "HRT1002",
+              "size": 25784
+            },
+            {
+              "name": "HRT1221",
+              "size": 2440
+            },
+            {
+              "name": "PLOG",
+              "size": 1800
+            },
+            {
+              "name": "PLOGI",
+              "size": 2560
+            },
+            {
+              "name": "SWD_BINDEF",
+              "size": 12424
+            },
+            {
+              "name": "SWD_CONDEF",
+              "size": 1376
+            },
+            {
+              "name": "SWD_CONT",
+              "size": 3952
+            },
+            {
+              "name": "SWD_EXPR",
+              "size": 1240
+            },
+            {
+              "name": "SWD_HEADER",
+              "size": 1448
+            },
+            {
+              "name": "SWD_LINES",
+              "size": 7088
+            },
+            {
+              "name": "SWD_MLINES",
+              "size": 1248
+            },
+            {
+              "name": "SWD_MNODES",
+              "size": 3416
+            },
+            {
+              "name": "SWD_NODES",
+              "size": 8464
+            },
+            {
+              "name": "SWD_STEPS",
+              "size": 2672
+            },
+            {
+              "name": "SWD_TEXT",
+              "size": 65760
+            },
+            {
+              "name": "SWD_WFCONT",
+              "size": 1440
+            },
+            {
+              "name": "SWD_WFCTXT",
+              "size": 2464
+            },
+            {
+              "name": "SWELOG",
+              "size": 93816
+            },
+            {
+              "name": "SWELTS",
+              "size": 20888
+            },
+            {
+              "name": "SWFREVTLOG",
+              "size": 90928
+            },
+            {
+              "name": "SWFSLSDEADL",
+              "size": 10704
+            },
+            {
+              "name": "SWFSLSRSDL",
+              "size": 9080
+            },
+            {
+              "name": "SWF_TRC_HEAD",
+              "size": 1080
+            },
+            {
+              "name": "SWPNODELOG",
+              "size": 14352
+            },
+            {
+              "name": "SWP_HEADER",
+              "size": 3800
+            },
+            {
+              "name": "SWW_WI2OBJ",
+              "size": 21272
+            },
+            {
+              "name": "T777T",
+              "size": 1584
+            },
+            {
+              "name": "T777U",
+              "size": 3784
+            },
+            {
+              "name": "T777V",
+              "size": 1816
+            },
+            {
+              "name": "T77AT",
+              "size": 10480
+            },
+            {
+              "name": "T77MT",
+              "size": 2544
+            },
+            {
+              "name": "T77ST",
+              "size": 10496
+            }
+          ]
+        },
+        {
+          "name": "BC-BSP",
+          "children": [
+            {
+              "name": "SSCOOKIE",
+              "size": 9304
+            }
+          ]
+        },
+        {
+          "name": "BC-CCM",
+          "children": [
+            {
+              "name": "TAAN_DATA",
+              "size": 5808
+            },
+            {
+              "name": "TST01",
+              "size": 2144
+            },
+            {
+              "name": "TST03",
+              "size": 116792
+            }
+          ]
+        },
+        {
+          "name": "BC-CTS",
+          "children": [
+            {
+              "name": "CCSELTAB",
+              "size": 130016
+            }
+          ]
+        },
+        {
+          "name": "BC-CUS",
+          "children": [
+            {
+              "name": "SCPRACTR",
+              "size": 4368
+            }
+          ]
+        },
+        {
+          "name": "BC-DOC",
+          "children": [
+            {
+              "name": "F4UHLP",
+              "size": 1240
+            }
+          ]
+        },
+        {
+          "name": "BC-DWB",
+          "children": [
+            {
+              "name": "SBOOK",
+              "size": 26768
+            },
+            {
+              "name": "SCUSTOM",
+              "size": 1264
+            },
+            {
+              "name": "SFBMSTPT",
+              "size": 1288
+            },
+            {
+              "name": "SMEN_BUFFC",
+              "size": 11080
+            }
+          ]
+        },
+        {
+          "name": "BC-FES",
+          "children": [
+            {
+              "name": "TBCCT",
+              "size": 2400
+            },
+            {
+              "name": "TBCFT",
+              "size": 1256
+            },
+            {
+              "name": "TBCLT",
+              "size": 5000
+            },
+            {
+              "name": "TCNCT",
+              "size": 1216
+            },
+            {
+              "name": "TCNNT",
+              "size": 6192
+            },
+            {
+              "name": "TFAT",
+              "size": 2904
+            },
+            {
+              "name": "TFATT",
+              "size": 17112
+            },
+            {
+              "name": "TFMTT",
+              "size": 4928
+            },
+            {
+              "name": "THLTT",
+              "size": 6920
+            }
+          ]
+        },
+        {
+          "name": "BC-MID",
+          "children": [
+            {
+              "name": "BDCP",
+              "size": 132960
+            },
+            {
+              "name": "BDCPS",
+              "size": 77280
+            },
+            {
+              "name": "EDE2T",
+              "size": 4048
+            },
+            {
+              "name": "IDOCREL",
+              "size": 10576
+            },
+            {
+              "name": "TBD62",
+              "size": 7952
+            },
+            {
+              "name": "TRFCQOUT",
+              "size": 1232
+            }
+          ]
+        },
+        {
+          "name": "BC-SEC",
+          "children": [
+            {
+              "name": "/VFORGE/FINDING",
+              "size": 5664
+            },
+            {
+              "name": "AGR_1016B",
+              "size": 1656
+            },
+            {
+              "name": "AGR_1250",
+              "size": 43832
+            },
+            {
+              "name": "AGR_1251",
+              "size": 223416
+            },
+            {
+              "name": "AGR_1252",
+              "size": 2160
+            },
+            {
+              "name": "AGR_BUFFI",
+              "size": 3600
+            },
+            {
+              "name": "AGR_DATEU",
+              "size": 1504
+            },
+            {
+              "name": "AGR_DEFINE",
+              "size": 2816
+            },
+            {
+              "name": "AGR_FLAGS",
+              "size": 51464
+            },
+            {
+              "name": "AGR_FLAGSB",
+              "size": 3072
+            },
+            {
+              "name": "AGR_HIER",
+              "size": 234088
+            },
+            {
+              "name": "AGR_HIER2",
+              "size": 1640
+            },
+            {
+              "name": "AGR_HIER3",
+              "size": 2328
+            },
+            {
+              "name": "AGR_HIERT",
+              "size": 3834504
+            },
+            {
+              "name": "AGR_HIERT2",
+              "size": 16624
+            },
+            {
+              "name": "AGR_HIERT3",
+              "size": 29744
+            },
+            {
+              "name": "AGR_LSD",
+              "size": 1104
+            },
+            {
+              "name": "AGR_MINIT",
+              "size": 3216
+            },
+            {
+              "name": "AGR_PROF",
+              "size": 14952
+            },
+            {
+              "name": "AGR_TCODES",
+              "size": 60080
+            },
+            {
+              "name": "AGR_TEXTS",
+              "size": 162488
+            },
+            {
+              "name": "AGR_TIME",
+              "size": 6064
+            },
+            {
+              "name": "AGR_TIMED",
+              "size": 1120
+            },
+            {
+              "name": "AGR_USERS",
+              "size": 3000
+            },
+            {
+              "name": "HRT1250",
+              "size": 1728
+            },
+            {
+              "name": "HRT1251",
+              "size": 6408
+            },
+            {
+              "name": "SPERS_LTYP",
+              "size": 1864
+            },
+            {
+              "name": "SPERS_OBJ",
+              "size": 32272
+            },
+            {
+              "name": "TBRGT",
+              "size": 3312
+            },
+            {
+              "name": "TUL_ENG_PROT",
+              "size": 1024
+            },
+            {
+              "name": "USH02",
+              "size": 9680
+            },
+            {
+              "name": "USH04",
+              "size": 5600
+            },
+            {
+              "name": "USH10",
+              "size": 20680
+            },
+            {
+              "name": "USH12",
+              "size": 17544
+            },
+            {
+              "name": "USR01",
+              "size": 1224
+            },
+            {
+              "name": "USR02",
+              "size": 5920
+            },
+            {
+              "name": "USR04",
+              "size": 2920
+            },
+            {
+              "name": "USR05",
+              "size": 3312
+            },
+            {
+              "name": "USR10",
+              "size": 12608
+            },
+            {
+              "name": "USR11",
+              "size": 20672
+            },
+            {
+              "name": "USR12",
+              "size": 56832
+            },
+            {
+              "name": "USR13",
+              "size": 566696
+            },
+            {
+              "name": "USR21",
+              "size": 1240
+            },
+            {
+              "name": "USRBF2",
+              "size": 1551088
+            },
+            {
+              "name": "USRSTAMP",
+              "size": 2176
+            },
+            {
+              "name": "UST04",
+              "size": 4376
+            },
+            {
+              "name": "UST10S",
+              "size": 21504
+            },
+            {
+              "name": "UST12",
+              "size": 172224
+            }
+          ]
+        },
+        {
+          "name": "BC-SRV",
+          "children": [
+            {
+              "name": "ADCP",
+              "size": 6360
+            },
+            {
+              "name": "ADCPS",
+              "size": 1864
+            },
+            {
+              "name": "ADR2",
+              "size": 2368
+            },
+            {
+              "name": "ADR6",
+              "size": 3600
+            },
+            {
+              "name": "ADR7",
+              "size": 2560
+            },
+            {
+              "name": "ADR7S",
+              "size": 1440
+            },
+            {
+              "name": "ADRC",
+              "size": 8600
+            },
+            {
+              "name": "ADRCOMC",
+              "size": 4144
+            },
+            {
+              "name": "ADRP",
+              "size": 6736
+            },
+            {
+              "name": "ADRPS",
+              "size": 2128
+            },
+            {
+              "name": "ADRT",
+              "size": 4520
+            },
+            {
+              "name": "ADRTS",
+              "size": 1608
+            },
+            {
+              "name": "ADRU",
+              "size": 2832
+            },
+            {
+              "name": "ADRUS",
+              "size": 1304
+            },
+            {
+              "name": "ADRV",
+              "size": 3344
+            },
+            {
+              "name": "ADRVP",
+              "size": 11280
+            },
+            {
+              "name": "ADRVPS",
+              "size": 1488
+            },
+            {
+              "name": "AQDB",
+              "size": 1136
+            },
+            {
+              "name": "AQLDB",
+              "size": 8368
+            },
+            {
+              "name": "AQLTS",
+              "size": 3112
+            },
+            {
+              "name": "BALDAT",
+              "size": 1287840
+            },
+            {
+              "name": "BALHDR",
+              "size": 43344
+            },
+            {
+              "name": "BCST_CAM",
+              "size": 1648
+            },
+            {
+              "name": "BCST_RE",
+              "size": 1704
+            },
+            {
+              "name": "BCST_SR",
+              "size": 5800
+            },
+            {
+              "name": "BDSCONT16",
+              "size": 1048
+            },
+            {
+              "name": "BDSCONT6",
+              "size": 2736
+            },
+            {
+              "name": "BDSCONT7",
+              "size": 4536
+            },
+            {
+              "name": "BDS_CONT1",
+              "size": 1136
+            },
+            {
+              "name": "CDHDR",
+              "size": 215288
+            },
+            {
+              "name": "CDPOS_UID",
+              "size": 11232
+            },
+            {
+              "name": "LTDX",
+              "size": 57064
+            },
+            {
+              "name": "LTDXT",
+              "size": 79264
+            },
+            {
+              "name": "LTEX",
+              "size": 2240
+            },
+            {
+              "name": "NAST",
+              "size": 17376
+            },
+            {
+              "name": "NRIV",
+              "size": 7736
+            },
+            {
+              "name": "PPFTMETETX",
+              "size": 3144
+            },
+            {
+              "name": "PPFTTTCUT",
+              "size": 2800
+            },
+            {
+              "name": "RTXTF",
+              "size": 20160
+            },
+            {
+              "name": "RTXTH",
+              "size": 1712
+            },
+            {
+              "name": "RTXTL",
+              "size": 180600
+            },
+            {
+              "name": "RTXTT",
+              "size": 30376
+            },
+            {
+              "name": "SALRTCCNTT",
+              "size": 1400
+            },
+            {
+              "name": "SBCMCONT1",
+              "size": 2800
+            },
+            {
+              "name": "SCAPPT",
+              "size": 4352
+            },
+            {
+              "name": "SCGENAPPT",
+              "size": 1944
+            },
+            {
+              "name": "SCMGCONT01",
+              "size": 2312
+            },
+            {
+              "name": "SERPT",
+              "size": 72400
+            },
+            {
+              "name": "SERPTREE",
+              "size": 2824
+            },
+            {
+              "name": "SGOSHIST",
+              "size": 5304
+            },
+            {
+              "name": "SOC3",
+              "size": 128736
+            },
+            {
+              "name": "SOCY",
+              "size": 1280
+            },
+            {
+              "name": "SOES",
+              "size": 2000
+            },
+            {
+              "name": "SOFD",
+              "size": 41872
+            },
+            {
+              "name": "SOFFCONT1",
+              "size": 96272
+            },
+            {
+              "name": "SOFM",
+              "size": 5488
+            },
+            {
+              "name": "SOOD",
+              "size": 26376
+            },
+            {
+              "name": "SOOS",
+              "size": 11800
+            },
+            {
+              "name": "SOST",
+              "size": 5032
+            },
+            {
+              "name": "SOUC",
+              "size": 1784
+            },
+            {
+              "name": "SOUD",
+              "size": 14016
+            },
+            {
+              "name": "SREPORTEXT",
+              "size": 73664
+            },
+            {
+              "name": "SREPOVARI",
+              "size": 15800
+            },
+            {
+              "name": "SRGBINREL",
+              "size": 1632
+            },
+            {
+              "name": "SRMCONT_MN",
+              "size": 11160
+            },
+            {
+              "name": "SRMPROTOCOL",
+              "size": 14400
+            },
+            {
+              "name": "SRRELROLES",
+              "size": 28616
+            },
+            {
+              "name": "SRTMCORREL",
+              "size": 3256
+            },
+            {
+              "name": "SSPIAGFLD_T",
+              "size": 2192
+            },
+            {
+              "name": "SSPISGD_T",
+              "size": 1168
+            },
+            {
+              "name": "SSPISGFLD_T",
+              "size": 6856
+            },
+            {
+              "name": "STXB",
+              "size": 2176
+            },
+            {
+              "name": "STXH",
+              "size": 63768
+            },
+            {
+              "name": "STXL",
+              "size": 155008
+            },
+            {
+              "name": "T005F",
+              "size": 3296
+            },
+            {
+              "name": "T005T",
+              "size": 2336
+            },
+            {
+              "name": "T005U",
+              "size": 8384
+            },
+            {
+              "name": "T006A",
+              "size": 1936
+            },
+            {
+              "name": "TCURR",
+              "size": 1192
+            },
+            {
+              "name": "TCURT",
+              "size": 1488
+            },
+            {
+              "name": "TOA01",
+              "size": 1064
+            },
+            {
+              "name": "TOASP",
+              "size": 2416
+            },
+            {
+              "name": "TRSTI",
+              "size": 2312
+            },
+            {
+              "name": "TRSTIT",
+              "size": 22056
+            },
+            {
+              "name": "TSINB",
+              "size": 4224
+            }
+          ]
+        },
+        {
+          "name": "BC-WD",
+          "children": [
+            {
+              "name": "WDY_CONF_USER",
+              "size": 4712
+            }
+          ]
+        },
+        {
+          "name": "BC-XI",
+          "children": [
+            {
+              "name": "SXMSCLUP",
+              "size": 8496
+            },
+            {
+              "name": "SXMSCLUR",
+              "size": 1968
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BW",
+      "children": [
+        {
+          "name": "BW-PLA",
+          "children": [
+            {
+              "name": "BDSCONT12",
+              "size": 7368
+            },
+            {
+              "name": "UPB_PS_DESIGN_T",
+              "size": 1656
+            },
+            {
+              "name": "UPC_OPTIOS",
+              "size": 9144
+            },
+            {
+              "name": "UPC_PACKAGET",
+              "size": 2528
+            },
+            {
+              "name": "UPC_PLEVELT",
+              "size": 2032
+            },
+            {
+              "name": "UPC_VARIABLET",
+              "size": 4496
+            },
+            {
+              "name": "UPF_PARAMT",
+              "size": 5368
+            },
+            {
+              "name": "UPF_PLANFT",
+              "size": 4504
+            },
+            {
+              "name": "UPP_ELEMT",
+              "size": 21536
+            },
+            {
+              "name": "UPP_PARAMT",
+              "size": 2464
+            },
+            {
+              "name": "UPP_SPREADS",
+              "size": 1080
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CA",
+      "children": [
+        {
+          "name": "CA",
+          "children": [
+            {
+              "name": "/SLO/SWB_D_IDT",
+              "size": 3368
+            },
+            {
+              "name": "/SLO/SWB_D_RLV",
+              "size": 21816
+            },
+            {
+              "name": "/SLO/SWB_G_CLU",
+              "size": 6464
+            },
+            {
+              "name": "/SLO/SWB_G_F01_L",
+              "size": 4280
+            },
+            {
+              "name": "/SLO/SWB_G_M01",
+              "size": 1128
+            },
+            {
+              "name": "/SLO/SWB_G_RTN_D",
+              "size": 1192
+            },
+            {
+              "name": "/SLO/SWB_G_RTN_H",
+              "size": 1248
+            },
+            {
+              "name": "/SLO/SWB_G_RTN_L",
+              "size": 84544
+            },
+            {
+              "name": "/SLO/SWB_M_OBJ_F",
+              "size": 1392
+            },
+            {
+              "name": "/SLO/SWB_T_FLD",
+              "size": 1296
+            },
+            {
+              "name": "BDOC_TRACK",
+              "size": 11872
+            },
+            {
+              "name": "CIFBALSEL",
+              "size": 5040
+            },
+            {
+              "name": "CIF_IMPPM",
+              "size": 2008
+            },
+            {
+              "name": "CIF_IMVMI",
+              "size": 53992
+            },
+            {
+              "name": "CKLTEX",
+              "size": 4824
+            },
+            {
+              "name": "CNV_05010_CLU",
+              "size": 1392
+            },
+            {
+              "name": "ONROV",
+              "size": 1472
+            }
+          ]
+        },
+        {
+          "name": "CA-BK",
+          "children": [
+            {
+              "name": "BNKA",
+              "size": 5168
+            }
+          ]
+        },
+        {
+          "name": "CA-CL",
+          "children": [
+            {
+              "name": "AUSP",
+              "size": 15512
+            },
+            {
+              "name": "CABN",
+              "size": 3120
+            },
+            {
+              "name": "CABNT",
+              "size": 22720
+            },
+            {
+              "name": "CAWN",
+              "size": 1576
+            },
+            {
+              "name": "CAWNT",
+              "size": 6664
+            },
+            {
+              "name": "INOB",
+              "size": 1440
+            },
+            {
+              "name": "KSML",
+              "size": 1576
+            },
+            {
+              "name": "KSSK",
+              "size": 2944
+            },
+            {
+              "name": "LCABNT",
+              "size": 8288
+            },
+            {
+              "name": "LKSML",
+              "size": 3136
+            },
+            {
+              "name": "LSWOR",
+              "size": 3360
+            },
+            {
+              "name": "SWOR",
+              "size": 3688
+            },
+            {
+              "name": "TCLUT",
+              "size": 1088
+            },
+            {
+              "name": "TCLXT",
+              "size": 1088
+            }
+          ]
+        },
+        {
+          "name": "CA-CUS",
+          "children": [
+            {
+              "name": "TCUSC",
+              "size": 4032
+            },
+            {
+              "name": "TSAUM",
+              "size": 1296
+            }
+          ]
+        },
+        {
+          "name": "CA-DMS",
+          "children": [
+            {
+              "name": "DMS_CONT1_CD1",
+              "size": 102024
+            },
+            {
+              "name": "DRAD_LAST_CHANGE",
+              "size": 4336
+            },
+            {
+              "name": "DRAO",
+              "size": 199152
+            },
+            {
+              "name": "DRAOZ",
+              "size": 1688
+            }
+          ]
+        },
+        {
+          "name": "CA-ESS",
+          "children": [
+            {
+              "name": "T7XSSSERARBT",
+              "size": 1136
+            },
+            {
+              "name": "T7XSSSERLNKT",
+              "size": 7080
+            },
+            {
+              "name": "T7XSSSERRES",
+              "size": 1016
+            },
+            {
+              "name": "T7XSSSERREST",
+              "size": 16240
+            },
+            {
+              "name": "T7XSSSERSRVT",
+              "size": 6376
+            },
+            {
+              "name": "T7XSSSERSTRING",
+              "size": 2280
+            },
+            {
+              "name": "T7XSSSERSTRLAN",
+              "size": 6456
+            }
+          ]
+        },
+        {
+          "name": "CA-EUR",
+          "children": [
+            {
+              "name": "/SLOAP/CLU_SRCT",
+              "size": 254352
+            },
+            {
+              "name": "/SLOAP/CLU_STORT",
+              "size": 613432
+            },
+            {
+              "name": "/SLOAP/CLU_TXTT",
+              "size": 126088
+            },
+            {
+              "name": "/SLOAP/DESC_ALIT",
+              "size": 13944
+            },
+            {
+              "name": "/SLOAP/FIELDT",
+              "size": 127576
+            },
+            {
+              "name": "/SLOAP/MD_FIELDT",
+              "size": 129952
+            },
+            {
+              "name": "/SLOAP/MD_SYST",
+              "size": 121648
+            },
+            {
+              "name": "/SLOAP/MODULET",
+              "size": 31696
+            },
+            {
+              "name": "/SLOAP/OUTP_CATT",
+              "size": 1120
+            },
+            {
+              "name": "/SLOAP/OUT_GRT",
+              "size": 17288
+            },
+            {
+              "name": "/SLOAP/OUT_GR_GT",
+              "size": 9960
+            },
+            {
+              "name": "/SLOAP/OUT_GR_MT",
+              "size": 23472
+            },
+            {
+              "name": "/SLOAP/OUT_MDT",
+              "size": 33128
+            },
+            {
+              "name": "/SLOAP/OUT_MD_MT",
+              "size": 22456
+            },
+            {
+              "name": "/SLOAP/OUT_PR_GT",
+              "size": 2104
+            },
+            {
+              "name": "/SLOAP/PR_XMLT",
+              "size": 1216
+            },
+            {
+              "name": "/SLOAP/SELOPTT",
+              "size": 28832
+            },
+            {
+              "name": "/SLOAP/STORAGET",
+              "size": 7856
+            },
+            {
+              "name": "/SLOAP/TEXTT",
+              "size": 40448
+            },
+            {
+              "name": "/SLOAP/TEXT_2T",
+              "size": 25264
+            },
+            {
+              "name": "/SLOAP/TITLET",
+              "size": 200080
+            },
+            {
+              "name": "/SLOAP/TITLET2",
+              "size": 170328
+            },
+            {
+              "name": "/SLOAP/TXT_TYPET",
+              "size": 1744
+            },
+            {
+              "name": "/SLOAP/XMLT",
+              "size": 255048
+            },
+            {
+              "name": "CNVC_SCNG_OBJL",
+              "size": 175952
+            },
+            {
+              "name": "CNVHCM_TR_TAB",
+              "size": 2512
+            },
+            {
+              "name": "CNVLTHCM_HRTAB",
+              "size": 4704
+            },
+            {
+              "name": "CNVLTHCM_SELTABS",
+              "size": 4568
+            },
+            {
+              "name": "CNVMBT09TABLE",
+              "size": 17088
+            },
+            {
+              "name": "CNVMBTACTIVITY",
+              "size": 1848
+            },
+            {
+              "name": "CNVMBTACTIVITYT",
+              "size": 5600
+            },
+            {
+              "name": "CNVMBTACTLOG",
+              "size": 2256
+            },
+            {
+              "name": "CNVMBTACTPARAMS",
+              "size": 10400
+            },
+            {
+              "name": "CNVMBTACTPARLOG",
+              "size": 5072
+            },
+            {
+              "name": "CNVMBTCHECKS",
+              "size": 1504
+            },
+            {
+              "name": "CNVMBTCOBJ",
+              "size": 295304
+            },
+            {
+              "name": "CNVMBTCOPYC",
+              "size": 11512
+            },
+            {
+              "name": "CNVMBTFIELDS",
+              "size": 3768
+            },
+            {
+              "name": "CNVMBTFIPARS",
+              "size": 5280
+            },
+            {
+              "name": "CNVMBTFORKEY",
+              "size": 5048
+            },
+            {
+              "name": "CNVMBTIMG",
+              "size": 4064
+            },
+            {
+              "name": "CNVMBTPEMSTATE",
+              "size": 3360
+            },
+            {
+              "name": "CNVMBTSCSCCU",
+              "size": 2048
+            },
+            {
+              "name": "CNVMBTSELGRPVAL",
+              "size": 1968
+            },
+            {
+              "name": "CNVMBTSELREF",
+              "size": 23560
+            },
+            {
+              "name": "CNVMBTSHELLTEMPL",
+              "size": 6400
+            },
+            {
+              "name": "CNVMBTSPEZTAB",
+              "size": 2136
+            },
+            {
+              "name": "CNVMBTSTATE",
+              "size": 7608
+            },
+            {
+              "name": "CNVMBTSUBSTATE",
+              "size": 103128
+            },
+            {
+              "name": "CNVMBTTABLES",
+              "size": 570568
+            },
+            {
+              "name": "CNVMBTTREE",
+              "size": 5904
+            },
+            {
+              "name": "CNVTDMSSCR_FLDS",
+              "size": 6544
+            },
+            {
+              "name": "CNVTDMSSCR_FPARS",
+              "size": 1544
+            },
+            {
+              "name": "CNVTDMSSCR_GRPT",
+              "size": 1008
+            },
+            {
+              "name": "CNVTDMSSCR_MIDT",
+              "size": 1360
+            },
+            {
+              "name": "CNVTDMSSCR_RULET",
+              "size": 1696
+            },
+            {
+              "name": "CNVTDMS_01_PERIO",
+              "size": 3720
+            },
+            {
+              "name": "CNVTDMS_01_SELEC",
+              "size": 2080
+            },
+            {
+              "name": "CNVTDMS_02_STEMP",
+              "size": 9904
+            },
+            {
+              "name": "CNVTDMS_02_STMPH",
+              "size": 3888
+            },
+            {
+              "name": "CNVTDMS_04_TAB",
+              "size": 29904
+            },
+            {
+              "name": "CNVTDMS_04_TABT",
+              "size": 30600
+            },
+            {
+              "name": "CNVTDMS_05_BKPF",
+              "size": 3712
+            },
+            {
+              "name": "CNVTDMS_05_BSAD1",
+              "size": 22280
+            },
+            {
+              "name": "CNVTDMS_05_BSAK1",
+              "size": 22224
+            },
+            {
+              "name": "CNVTDMS_05_BSAS",
+              "size": 1424
+            },
+            {
+              "name": "CNVTDMS_05_BSEG1",
+              "size": 20624
+            },
+            {
+              "name": "CNVTDMS_05_BSIS",
+              "size": 21552
+            },
+            {
+              "name": "CNVTDMS_05_CE1",
+              "size": 2800
+            },
+            {
+              "name": "CNVTDMS_05_CE3",
+              "size": 1336
+            },
+            {
+              "name": "CNVTDMS_05_COBK",
+              "size": 2960
+            },
+            {
+              "name": "CNVTDMS_05_JES_R",
+              "size": 1992
+            },
+            {
+              "name": "CNVTDMS_06_SPEC",
+              "size": 3792
+            },
+            {
+              "name": "CNVTDMS_08_TSTRU",
+              "size": 4536
+            },
+            {
+              "name": "CNVTDMS_13_EXCTB",
+              "size": 46760
+            },
+            {
+              "name": "CNVTDMS_13_INCTB",
+              "size": 10856
+            },
+            {
+              "name": "CNVTDMS_EC_STMPC",
+              "size": 14368
+            },
+            {
+              "name": "CNV_NCE_KB_LOCAL",
+              "size": 5352
+            },
+            {
+              "name": "CNV_NCE_NRIV_EXT",
+              "size": 6256
+            },
+            {
+              "name": "CNV_NCE_NRIV_TMP",
+              "size": 1200
+            },
+            {
+              "name": "DMC_CLUPTR",
+              "size": 7488
+            },
+            {
+              "name": "DMC_INDX",
+              "size": 2160
+            },
+            {
+              "name": "EWUFZ",
+              "size": 1792
+            },
+            {
+              "name": "EWUFZP",
+              "size": 2800
+            },
+            {
+              "name": "EWUTSL",
+              "size": 1176
+            }
+          ]
+        },
+        {
+          "name": "CA-FS",
+          "children": [
+            {
+              "name": "TPZ3X",
+              "size": 1872
+            }
+          ]
+        },
+        {
+          "name": "CA-GTF",
+          "children": [
+            {
+              "name": "/SAPAPO/LRPSTSAT",
+              "size": 10800
+            },
+            {
+              "name": "/SAPAPO/LRPSWTSA",
+              "size": 6816
+            },
+            {
+              "name": "/SAPAPO/LRPTSTRM",
+              "size": 1416
+            },
+            {
+              "name": "APB_LAUNCHPADT",
+              "size": 1280
+            },
+            {
+              "name": "CGPL_HIERARCHY",
+              "size": 1728
+            },
+            {
+              "name": "CGPL_PROJECT",
+              "size": 1168
+            },
+            {
+              "name": "CGPL_TASK",
+              "size": 3704
+            },
+            {
+              "name": "CGPL_TEXT",
+              "size": 2240
+            },
+            {
+              "name": "CNVCLU",
+              "size": 242776
+            },
+            {
+              "name": "CNVDOMS",
+              "size": 6352
+            },
+            {
+              "name": "CNVDOMST",
+              "size": 3752
+            },
+            {
+              "name": "CNVDOPARS",
+              "size": 5808
+            },
+            {
+              "name": "CNVFIELDREF",
+              "size": 6600
+            },
+            {
+              "name": "CNVFIELDS",
+              "size": 253952
+            },
+            {
+              "name": "CNVFIELDST",
+              "size": 65128
+            },
+            {
+              "name": "CNVFIPARS",
+              "size": 104816
+            },
+            {
+              "name": "CNVIMG",
+              "size": 2440
+            },
+            {
+              "name": "CNVJOBPROFILE",
+              "size": 6168
+            },
+            {
+              "name": "CNVORDER",
+              "size": 1136
+            },
+            {
+              "name": "CNVSTATE",
+              "size": 4768
+            },
+            {
+              "name": "CNVSTEPS",
+              "size": 163664
+            },
+            {
+              "name": "CNVSTEPST",
+              "size": 19560
+            },
+            {
+              "name": "CNVSTPARS",
+              "size": 119848
+            },
+            {
+              "name": "CNVSYSTSETTINGS",
+              "size": 1256
+            },
+            {
+              "name": "CNVTABLES",
+              "size": 100848
+            },
+            {
+              "name": "CNVTABLEST",
+              "size": 14976
+            },
+            {
+              "name": "CNVTEMP",
+              "size": 2416
+            },
+            {
+              "name": "CNVTSACTT",
+              "size": 1352
+            },
+            {
+              "name": "CNV_00001_PARAMS",
+              "size": 1232
+            },
+            {
+              "name": "CNV_10020_ACTT",
+              "size": 1240
+            },
+            {
+              "name": "CNV_10020_CFOBJH",
+              "size": 1088
+            },
+            {
+              "name": "CNV_10020_CFOBJP",
+              "size": 1776
+            },
+            {
+              "name": "CNV_10020_CFOBJT",
+              "size": 1280
+            },
+            {
+              "name": "CNV_10020_COND",
+              "size": 3144
+            },
+            {
+              "name": "CNV_10020_CONDFV",
+              "size": 2376
+            },
+            {
+              "name": "CNV_10020_CONDT",
+              "size": 5672
+            },
+            {
+              "name": "CNV_10020_DTDEF",
+              "size": 1872
+            },
+            {
+              "name": "CNV_10020_DTFLD",
+              "size": 18424
+            },
+            {
+              "name": "CNV_10020_DTOBJH",
+              "size": 1968
+            },
+            {
+              "name": "CNV_10020_DTOBJT",
+              "size": 2504
+            },
+            {
+              "name": "CNV_10020_LOR_M",
+              "size": 2856
+            },
+            {
+              "name": "CNV_10020_PATH",
+              "size": 7688
+            },
+            {
+              "name": "CNV_10020_PATHT",
+              "size": 11232
+            },
+            {
+              "name": "CNV_10020_PATH_M",
+              "size": 1312
+            },
+            {
+              "name": "CNV_10020_PATH_S",
+              "size": 2656
+            },
+            {
+              "name": "CNV_10020_RCOMP",
+              "size": 11040
+            },
+            {
+              "name": "CNV_10020_RCPARM",
+              "size": 4432
+            },
+            {
+              "name": "CNV_10020_RULE",
+              "size": 2792
+            },
+            {
+              "name": "CNV_10020_RULEP",
+              "size": 3344
+            },
+            {
+              "name": "CNV_10020_RULET",
+              "size": 3888
+            },
+            {
+              "name": "CNV_10020_VLISTP",
+              "size": 1424
+            },
+            {
+              "name": "CNV_10400_SETUP",
+              "size": 11224
+            },
+            {
+              "name": "CNV_10400_TABUSE",
+              "size": 8456
+            },
+            {
+              "name": "CNV_20100FAGL011",
+              "size": 4320
+            },
+            {
+              "name": "CNV_20100_CSKB",
+              "size": 1552
+            },
+            {
+              "name": "CNV_20100_CSKU",
+              "size": 44280
+            },
+            {
+              "name": "CNV_20100_SKA1",
+              "size": 3688
+            },
+            {
+              "name": "CNV_20100_SKAT",
+              "size": 167888
+            },
+            {
+              "name": "CNV_20100_SKB1",
+              "size": 51792
+            },
+            {
+              "name": "CNV_20100_T030",
+              "size": 1320
+            },
+            {
+              "name": "CNV_20551_CO_BEL",
+              "size": 5472
+            },
+            {
+              "name": "CNV_20551_DERIV1",
+              "size": 2528
+            },
+            {
+              "name": "CNV_20551_RKEOBJ",
+              "size": 1752
+            },
+            {
+              "name": "CNV_20551_SCOB1",
+              "size": 40104
+            },
+            {
+              "name": "CNV_20551_SCOB1B",
+              "size": 1504
+            },
+            {
+              "name": "CNV_20551_SCOB2",
+              "size": 1600
+            },
+            {
+              "name": "CNV_20551_VBELN",
+              "size": 1120
+            },
+            {
+              "name": "CNV_20800_T077D",
+              "size": 2488
+            },
+            {
+              "name": "CNV_INDX_FIELDS",
+              "size": 4296
+            },
+            {
+              "name": "CNV_INDX_FIELDST",
+              "size": 1680
+            },
+            {
+              "name": "CNV_INDX_FIPARS",
+              "size": 5440
+            },
+            {
+              "name": "CNV_INDX_TABLES",
+              "size": 1880
+            },
+            {
+              "name": "CPEC_ROUTINE_T",
+              "size": 1240
+            },
+            {
+              "name": "CRM_JCDS",
+              "size": 1608
+            },
+            {
+              "name": "CUEX",
+              "size": 2736
+            },
+            {
+              "name": "CUKBT",
+              "size": 1816
+            },
+            {
+              "name": "CUKN",
+              "size": 1600
+            },
+            {
+              "name": "CUVTAB_VALC",
+              "size": 6312
+            },
+            {
+              "name": "CUVTLN",
+              "size": 1672
+            },
+            {
+              "name": "CUXREF",
+              "size": 1440
+            },
+            {
+              "name": "EFGSTTXTINFO",
+              "size": 1696
+            },
+            {
+              "name": "EFRMLAN",
+              "size": 1024
+            },
+            {
+              "name": "EFRMSTRTE",
+              "size": 6632
+            },
+            {
+              "name": "EFRMTE",
+              "size": 3224
+            },
+            {
+              "name": "ESTPH",
+              "size": 5288
+            },
+            {
+              "name": "ESTPJ",
+              "size": 4400
+            },
+            {
+              "name": "ESTPO",
+              "size": 3440
+            },
+            {
+              "name": "ESTPP",
+              "size": 33224
+            },
+            {
+              "name": "ESTPT",
+              "size": 1600
+            },
+            {
+              "name": "FPB_PERSPARM",
+              "size": 2520
+            },
+            {
+              "name": "HRHAP_ACT_LOG",
+              "size": 2200
+            },
+            {
+              "name": "HRHAP_BASIC",
+              "size": 2816
+            },
+            {
+              "name": "HRHAP_FINAL",
+              "size": 3416
+            },
+            {
+              "name": "HRHAP_OBJECT",
+              "size": 1784
+            },
+            {
+              "name": "HRPAD31",
+              "size": 7296
+            },
+            {
+              "name": "HRT1045",
+              "size": 3144
+            },
+            {
+              "name": "JCDS",
+              "size": 18776
+            },
+            {
+              "name": "JEST",
+              "size": 16376
+            },
+            {
+              "name": "JSTO",
+              "size": 5160
+            },
+            {
+              "name": "ONR00",
+              "size": 3768
+            },
+            {
+              "name": "POWL_QUERY_T",
+              "size": 4552
+            },
+            {
+              "name": "POWL_RESULT",
+              "size": 2776
+            },
+            {
+              "name": "POWL_SELCRIT",
+              "size": 1176
+            },
+            {
+              "name": "RMPSLANGISO639_T",
+              "size": 1088
+            },
+            {
+              "name": "SCMATREET",
+              "size": 6224
+            },
+            {
+              "name": "SMMAIN",
+              "size": 3856
+            },
+            {
+              "name": "SMPARAM",
+              "size": 4272
+            },
+            {
+              "name": "SMSELKRIT",
+              "size": 12080
+            },
+            {
+              "name": "T056P",
+              "size": 6160
+            },
+            {
+              "name": "T241Q",
+              "size": 2840
+            },
+            {
+              "name": "T7KWLOIO",
+              "size": 1384
+            },
+            {
+              "name": "T7KWLOIOT",
+              "size": 2624
+            },
+            {
+              "name": "T7KWPHF",
+              "size": 2736
+            },
+            {
+              "name": "T7KWPHIO",
+              "size": 4096
+            },
+            {
+              "name": "T7KWPHPR",
+              "size": 3024
+            },
+            {
+              "name": "T7KW_SDOKCONT1",
+              "size": 18416
+            },
+            {
+              "name": "TBRF150T",
+              "size": 1368
+            },
+            {
+              "name": "TBRF180T",
+              "size": 2640
+            },
+            {
+              "name": "TCG12",
+              "size": 4296
+            },
+            {
+              "name": "TCGENVNA",
+              "size": 2856
+            },
+            {
+              "name": "TCGUENA",
+              "size": 1424
+            },
+            {
+              "name": "TFAW",
+              "size": 2160
+            },
+            {
+              "name": "TFAWA",
+              "size": 1152
+            },
+            {
+              "name": "TFAWL",
+              "size": 3768
+            },
+            {
+              "name": "TFAWX",
+              "size": 5760
+            },
+            {
+              "name": "THM010",
+              "size": 1128
+            },
+            {
+              "name": "THM012",
+              "size": 1856
+            },
+            {
+              "name": "TJ30T",
+              "size": 2016
+            },
+            {
+              "name": "TXW_C_RELA",
+              "size": 1176
+            },
+            {
+              "name": "WFACAS_SHIFT_SEG",
+              "size": 14864
+            },
+            {
+              "name": "WFAFC_SAMPLE2",
+              "size": 123408
+            },
+            {
+              "name": "WFA_AGT_ROT_T",
+              "size": 1424
+            },
+            {
+              "name": "WFA_AGT_SCHST",
+              "size": 1024
+            },
+            {
+              "name": "WFA_SCH_STATS",
+              "size": 1280
+            },
+            {
+              "name": "WFA_SHIFT",
+              "size": 2552
+            },
+            {
+              "name": "WFA_SHIFT_SG2",
+              "size": 14024
+            },
+            {
+              "name": "WFA_TMAP_INTV",
+              "size": 1392
+            },
+            {
+              "name": "WFA_WRKRLST_V",
+              "size": 4600
+            },
+            {
+              "name": "WFMCAS_AGT_ROT_T",
+              "size": 1424
+            },
+            {
+              "name": "WFMCAS_SCH_STATS",
+              "size": 1168
+            },
+            {
+              "name": "WFMCAS_SHIFT",
+              "size": 2552
+            },
+            {
+              "name": "WFMCAS_SHIFT_SEG",
+              "size": 14864
+            },
+            {
+              "name": "WFMCAS_SHIFT_SG2",
+              "size": 10360
+            },
+            {
+              "name": "WFMCAS_TMAP_INTV",
+              "size": 1384
+            },
+            {
+              "name": "WFMCAS_WRKRLST_V",
+              "size": 4568
+            },
+            {
+              "name": "WFMFC_SAMPLE2",
+              "size": 119768
+            }
+          ]
+        },
+        {
+          "name": "CA-ME",
+          "children": [
+            {
+              "name": "MEREP_207",
+              "size": 276136
+            },
+            {
+              "name": "MEREP_208",
+              "size": 3504
+            },
+            {
+              "name": "MEREP_601",
+              "size": 1400
+            },
+            {
+              "name": "MEREP_602",
+              "size": 3800
+            },
+            {
+              "name": "MEREP_604",
+              "size": 32608
+            }
+          ]
+        },
+        {
+          "name": "CA-TS",
+          "children": [
+            {
+              "name": "CATSDB",
+              "size": 1280
+            },
+            {
+              "name": "CATS_MY_FIXTEXTS",
+              "size": 1032
+            },
+            {
+              "name": "PTRV_OFFLINE_TXT",
+              "size": 9976
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CO",
+      "children": [
+        {
+          "name": "CO",
+          "children": [
+            {
+              "name": "CSKA",
+              "size": 1256
+            },
+            {
+              "name": "CSKB",
+              "size": 2264
+            },
+            {
+              "name": "CSKT",
+              "size": 2472
+            },
+            {
+              "name": "CSKU",
+              "size": 46704
+            },
+            {
+              "name": "IAOM_EXT_OBJ_INF",
+              "size": 1224
+            },
+            {
+              "name": "SE16N_CD_DATA",
+              "size": 324920
+            }
+          ]
+        },
+        {
+          "name": "CO-OM",
+          "children": [
+            {
+              "name": "ABC_FTREE",
+              "size": 1000
+            },
+            {
+              "name": "ABC_FTREET",
+              "size": 47160
+            },
+            {
+              "name": "AUFK",
+              "size": 5800
+            },
+            {
+              "name": "COBK",
+              "size": 76240
+            },
+            {
+              "name": "COBRA",
+              "size": 2184
+            },
+            {
+              "name": "COBRB",
+              "size": 3880
+            },
+            {
+              "name": "COEJ",
+              "size": 139168
+            },
+            {
+              "name": "COEJL",
+              "size": 9368
+            },
+            {
+              "name": "COEJR",
+              "size": 5464
+            },
+            {
+              "name": "COEJT",
+              "size": 9664
+            },
+            {
+              "name": "COEP",
+              "size": 251784
+            },
+            {
+              "name": "COEPL",
+              "size": 4360
+            },
+            {
+              "name": "COEPR",
+              "size": 3896
+            },
+            {
+              "name": "COFIO1",
+              "size": 1232
+            },
+            {
+              "name": "COFIT",
+              "size": 13112
+            },
+            {
+              "name": "COFUNC1",
+              "size": 9744
+            },
+            {
+              "name": "COFUNCL",
+              "size": 13232
+            },
+            {
+              "name": "COKA",
+              "size": 9160
+            },
+            {
+              "name": "COKL",
+              "size": 3048
+            },
+            {
+              "name": "COKP",
+              "size": 14784
+            },
+            {
+              "name": "COKR",
+              "size": 3104
+            },
+            {
+              "name": "COKS",
+              "size": 3400
+            },
+            {
+              "name": "COOI",
+              "size": 1448
+            },
+            {
+              "name": "COPARAM",
+              "size": 1088
+            },
+            {
+              "name": "COPARAML",
+              "size": 7552
+            },
+            {
+              "name": "COSL",
+              "size": 4264
+            },
+            {
+              "name": "COSP",
+              "size": 66656
+            },
+            {
+              "name": "COSR",
+              "size": 5824
+            },
+            {
+              "name": "COSS",
+              "size": 102992
+            },
+            {
+              "name": "COST",
+              "size": 9072
+            },
+            {
+              "name": "CSSL",
+              "size": 1200
+            },
+            {
+              "name": "KPP1CONT1",
+              "size": 3240
+            },
+            {
+              "name": "T811D",
+              "size": 1248
+            },
+            {
+              "name": "T811I",
+              "size": 1888
+            },
+            {
+              "name": "T811K",
+              "size": 1064
+            },
+            {
+              "name": "T811L",
+              "size": 2528
+            },
+            {
+              "name": "TKT09",
+              "size": 1088
+            }
+          ]
+        },
+        {
+          "name": "CO-PA",
+          "children": [
+            {
+              "name": "CE1BGIS",
+              "size": 9040
+            },
+            {
+              "name": "CE1IDEA",
+              "size": 87736
+            },
+            {
+              "name": "CE1R300",
+              "size": 21576
+            },
+            {
+              "name": "CE1S_AL",
+              "size": 2904
+            },
+            {
+              "name": "CE1S_CP",
+              "size": 6352
+            },
+            {
+              "name": "CE2BGIS",
+              "size": 9888
+            },
+            {
+              "name": "CE2IDEA",
+              "size": 22528
+            },
+            {
+              "name": "CE2S_AL",
+              "size": 2376
+            },
+            {
+              "name": "CE2S_CP",
+              "size": 5328
+            },
+            {
+              "name": "CE3BGIS",
+              "size": 7208
+            },
+            {
+              "name": "CE3IDEA",
+              "size": 38664
+            },
+            {
+              "name": "CE3S_CP",
+              "size": 6056
+            },
+            {
+              "name": "CE4IDEA",
+              "size": 15336
+            },
+            {
+              "name": "CE4IDEA_ACCT",
+              "size": 28808
+            },
+            {
+              "name": "CE4IDEA_KENC",
+              "size": 16112
+            },
+            {
+              "name": "CE4R300_ACCT",
+              "size": 11632
+            },
+            {
+              "name": "CEERROR",
+              "size": 8192
+            },
+            {
+              "name": "CEFORMA",
+              "size": 4696
+            },
+            {
+              "name": "CEFORMC",
+              "size": 1120
+            },
+            {
+              "name": "CEFORMF",
+              "size": 34264
+            },
+            {
+              "name": "CEFORMS",
+              "size": 17096
+            },
+            {
+              "name": "CEFORMT",
+              "size": 439104
+            },
+            {
+              "name": "CEFORMV",
+              "size": 4464
+            },
+            {
+              "name": "CEFORMW",
+              "size": 36224
+            },
+            {
+              "name": "CEPRINT",
+              "size": 17936
+            },
+            {
+              "name": "CESETS",
+              "size": 1392
+            },
+            {
+              "name": "T237T",
+              "size": 5864
+            },
+            {
+              "name": "TKEB1",
+              "size": 1120
+            },
+            {
+              "name": "TKEB2",
+              "size": 17024
+            },
+            {
+              "name": "TKEDRST",
+              "size": 2768
+            },
+            {
+              "name": "TKES1",
+              "size": 1064
+            },
+            {
+              "name": "TKES2",
+              "size": 24872
+            },
+            {
+              "name": "TKES5",
+              "size": 6048
+            },
+            {
+              "name": "TKESK",
+              "size": 4680
+            },
+            {
+              "name": "TKESW",
+              "size": 11328
+            },
+            {
+              "name": "TKETRPROTD",
+              "size": 1024
+            }
+          ]
+        },
+        {
+          "name": "CO-PC",
+          "children": [
+            {
+              "name": "CKCMCT_TR",
+              "size": 18504
+            },
+            {
+              "name": "CKCMT_TR",
+              "size": 1320
+            },
+            {
+              "name": "CKHS",
+              "size": 4112
+            },
+            {
+              "name": "CKIS",
+              "size": 57696
+            },
+            {
+              "name": "CKIT",
+              "size": 15016
+            },
+            {
+              "name": "CKMI1",
+              "size": 29520
+            },
+            {
+              "name": "CKMLCR",
+              "size": 6640
+            },
+            {
+              "name": "CKMLKALNR",
+              "size": 1704
+            },
+            {
+              "name": "CKMLKEPH",
+              "size": 3704
+            },
+            {
+              "name": "CKMLMV011",
+              "size": 1592
+            },
+            {
+              "name": "CKMLPP",
+              "size": 1544
+            },
+            {
+              "name": "CKMLPRKEKO",
+              "size": 5504
+            },
+            {
+              "name": "CKMLPRKEPH",
+              "size": 36072
+            },
+            {
+              "name": "CMFP",
+              "size": 26632
+            },
+            {
+              "name": "COSB",
+              "size": 14896
+            },
+            {
+              "name": "KALM",
+              "size": 2712
+            },
+            {
+              "name": "KEKO",
+              "size": 33232
+            },
+            {
+              "name": "KEPH",
+              "size": 13880
+            },
+            {
+              "name": "MLCR",
+              "size": 11696
+            },
+            {
+              "name": "MLCRF",
+              "size": 1008
+            },
+            {
+              "name": "MLCRP",
+              "size": 10704
+            },
+            {
+              "name": "MLIT",
+              "size": 9888
+            },
+            {
+              "name": "MLKEPH",
+              "size": 6392
+            },
+            {
+              "name": "MLPP",
+              "size": 5280
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EC",
+      "children": [
+        {
+          "name": "EC-CS",
+          "children": [
+            {
+              "name": "ECMCA",
+              "size": 11816
+            },
+            {
+              "name": "ECMCO",
+              "size": 2176
+            },
+            {
+              "name": "ECMCT",
+              "size": 27792
+            },
+            {
+              "name": "TF100",
+              "size": 1872
+            },
+            {
+              "name": "TF101",
+              "size": 60040
+            },
+            {
+              "name": "TF102",
+              "size": 57040
+            },
+            {
+              "name": "TF104",
+              "size": 2368
+            },
+            {
+              "name": "TF261",
+              "size": 1048
+            }
+          ]
+        },
+        {
+          "name": "EC-EIS",
+          "children": [
+            {
+              "name": "CF500",
+              "size": 2000
+            },
+            {
+              "name": "CF706",
+              "size": 38064
+            },
+            {
+              "name": "CF709",
+              "size": 1088
+            },
+            {
+              "name": "CF750",
+              "size": 2560
+            },
+            {
+              "name": "CF752",
+              "size": 2520
+            },
+            {
+              "name": "CF760",
+              "size": 4520
+            },
+            {
+              "name": "COIX",
+              "size": 49416
+            },
+            {
+              "name": "T241B",
+              "size": 1792
+            },
+            {
+              "name": "TKEBU",
+              "size": 3640
+            },
+            {
+              "name": "TKEBU_VAR",
+              "size": 1624
+            },
+            {
+              "name": "TRSTHVT",
+              "size": 4720
+            }
+          ]
+        },
+        {
+          "name": "EC-PCA",
+          "children": [
+            {
+              "name": "GLPCA",
+              "size": 484624
+            },
+            {
+              "name": "GLPCC",
+              "size": 1336
+            },
+            {
+              "name": "GLPCP",
+              "size": 57592
+            },
+            {
+              "name": "GLPCT",
+              "size": 32960
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EHS",
+      "children": [
+        {
+          "name": "EHS",
+          "children": [
+            {
+              "name": "THM072",
+              "size": 3152
+            }
+          ]
+        },
+        {
+          "name": "EHS-DGP",
+          "children": [
+            {
+              "name": "TDG70",
+              "size": 1288
+            }
+          ]
+        },
+        {
+          "name": "EHS-HEA",
+          "children": [
+            {
+              "name": "T7EHS00_DIAGSLT",
+              "size": 1552
+            }
+          ]
+        },
+        {
+          "name": "EHS-SAF",
+          "children": [
+            {
+              "name": "ESTDR",
+              "size": 1168
+            },
+            {
+              "name": "ESTDU",
+              "size": 1288
+            },
+            {
+              "name": "ESTLS",
+              "size": 2584
+            },
+            {
+              "name": "ESTVA",
+              "size": 1504
+            },
+            {
+              "name": "TCGA7",
+              "size": 5800
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EP",
+      "children": [
+        {
+          "name": "EP-KM",
+          "children": [
+            {
+              "name": "COM_SE_CPOINTER",
+              "size": 4936
+            }
+          ]
+        },
+        {
+          "name": "EP-PCT",
+          "children": [
+            {
+              "name": "FPB_VAR_DATA",
+              "size": 1240
+            },
+            {
+              "name": "TWPC_COLHEAD",
+              "size": 1312
+            },
+            {
+              "name": "TWPC_COL_T",
+              "size": 2344
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FI",
+      "children": [
+        {
+          "name": "FI",
+          "children": [
+            {
+              "name": "ACCTCR",
+              "size": 63560
+            },
+            {
+              "name": "ACCTHD",
+              "size": 11192
+            },
+            {
+              "name": "ACCTIT",
+              "size": 277456
+            },
+            {
+              "name": "ARIX_BKPF",
+              "size": 5072
+            },
+            {
+              "name": "ARIX_BSAD",
+              "size": 1496
+            },
+            {
+              "name": "ARIX_BSAK",
+              "size": 2096
+            },
+            {
+              "name": "ARIX_BSAS",
+              "size": 7288
+            },
+            {
+              "name": "BFIT_A",
+              "size": 5720
+            },
+            {
+              "name": "BFIT_A0",
+              "size": 2040
+            },
+            {
+              "name": "BFOD_A",
+              "size": 5760
+            },
+            {
+              "name": "BFOK_A",
+              "size": 3992
+            },
+            {
+              "name": "BKPF",
+              "size": 953312
+            },
+            {
+              "name": "BSAD",
+              "size": 357184
+            },
+            {
+              "name": "BSAK",
+              "size": 506648
+            },
+            {
+              "name": "BSAS",
+              "size": 44216
+            },
+            {
+              "name": "BSBW",
+              "size": 4752
+            },
+            {
+              "name": "BSE_CLR",
+              "size": 97512
+            },
+            {
+              "name": "BSID",
+              "size": 19224
+            },
+            {
+              "name": "BSIK",
+              "size": 73272
+            },
+            {
+              "name": "BSIP",
+              "size": 55992
+            },
+            {
+              "name": "BSIS",
+              "size": 976136
+            },
+            {
+              "name": "KNB1",
+              "size": 5320
+            },
+            {
+              "name": "LFA1",
+              "size": 1280
+            },
+            {
+              "name": "RF048",
+              "size": 139688
+            },
+            {
+              "name": "RFDT",
+              "size": 11912
+            },
+            {
+              "name": "SKA1",
+              "size": 6056
+            },
+            {
+              "name": "SKAT",
+              "size": 171096
+            },
+            {
+              "name": "SLPB",
+              "size": 1624
+            },
+            {
+              "name": "T007V",
+              "size": 1064
+            },
+            {
+              "name": "T053S",
+              "size": 4472
+            }
+          ]
+        },
+        {
+          "name": "FI-AA",
+          "children": [
+            {
+              "name": "ANEP",
+              "size": 1928
+            },
+            {
+              "name": "ANKB",
+              "size": 5008
+            },
+            {
+              "name": "ANLA",
+              "size": 1560
+            },
+            {
+              "name": "ANLB",
+              "size": 4848
+            },
+            {
+              "name": "ANLC",
+              "size": 26896
+            },
+            {
+              "name": "ANLP",
+              "size": 16432
+            },
+            {
+              "name": "T090NAT",
+              "size": 16120
+            },
+            {
+              "name": "T090NDT",
+              "size": 1768
+            },
+            {
+              "name": "T090NPT",
+              "size": 1696
+            },
+            {
+              "name": "T090NST",
+              "size": 7240
+            },
+            {
+              "name": "T090S",
+              "size": 7616
+            },
+            {
+              "name": "T090T",
+              "size": 16096
+            },
+            {
+              "name": "T093T",
+              "size": 5296
+            },
+            {
+              "name": "TABWT",
+              "size": 2224
+            },
+            {
+              "name": "TAMLAY0T",
+              "size": 1624
+            },
+            {
+              "name": "TAMLAY1T",
+              "size": 4528
+            }
+          ]
+        },
+        {
+          "name": "FI-AP",
+          "children": [
+            {
+              "name": "REGUH",
+              "size": 234232
+            },
+            {
+              "name": "T059D",
+              "size": 1328
+            },
+            {
+              "name": "T059OT",
+              "size": 1256
+            },
+            {
+              "name": "T059ZT",
+              "size": 3456
+            }
+          ]
+        },
+        {
+          "name": "FI-AR",
+          "children": [
+            {
+              "name": "KNVP",
+              "size": 2456
+            },
+            {
+              "name": "RFRR",
+              "size": 3840
+            }
+          ]
+        },
+        {
+          "name": "FI-BL",
+          "children": [
+            {
+              "name": "PAYR",
+              "size": 160344
+            },
+            {
+              "name": "T012T",
+              "size": 5896
+            }
+          ]
+        },
+        {
+          "name": "FI-FM",
+          "children": [
+            {
+              "name": "BPJA",
+              "size": 1176
+            },
+            {
+              "name": "FMCIT",
+              "size": 1512
+            },
+            {
+              "name": "FMEP",
+              "size": 1424
+            },
+            {
+              "name": "FMFPOT",
+              "size": 1360
+            }
+          ]
+        },
+        {
+          "name": "FI-GL",
+          "children": [
+            {
+              "name": "ETXDCJ",
+              "size": 1528
+            },
+            {
+              "name": "FAGLFLEXA",
+              "size": 2699488
+            },
+            {
+              "name": "FAGLFLEXT",
+              "size": 66832
+            },
+            {
+              "name": "FAGLSKF",
+              "size": 1024
+            },
+            {
+              "name": "FAGL_011PC",
+              "size": 1992
+            },
+            {
+              "name": "FAGL_011QT",
+              "size": 15176
+            },
+            {
+              "name": "FAGL_011ZC",
+              "size": 2856
+            },
+            {
+              "name": "FAGL_BSBW_HISTRY",
+              "size": 5776
+            },
+            {
+              "name": "FAGL_MIG_OPITEMS",
+              "size": 4424
+            },
+            {
+              "name": "FAGL_MIG_RPITEMS",
+              "size": 21120
+            },
+            {
+              "name": "SKB1",
+              "size": 40176
+            },
+            {
+              "name": "TCJ_CJ_NAMES",
+              "size": 1632
+            }
+          ]
+        },
+        {
+          "name": "FI-LA",
+          "children": [
+            {
+              "name": "TFILA_GF_000PT",
+              "size": 1320
+            }
+          ]
+        },
+        {
+          "name": "FI-LC",
+          "children": [
+            {
+              "name": "FILCA",
+              "size": 1527568
+            },
+            {
+              "name": "FILCO",
+              "size": 2712
+            },
+            {
+              "name": "FILCT",
+              "size": 31240
+            },
+            {
+              "name": "MCDX",
+              "size": 21072
+            },
+            {
+              "name": "T854T",
+              "size": 21576
+            },
+            {
+              "name": "T854U",
+              "size": 4432
+            },
+            {
+              "name": "T862T",
+              "size": 4056
+            },
+            {
+              "name": "T863T",
+              "size": 1480
+            },
+            {
+              "name": "T879",
+              "size": 3576
+            }
+          ]
+        },
+        {
+          "name": "FI-LOC",
+          "children": [
+            {
+              "name": "J_3RFTAX_OBJECTS",
+              "size": 2104
+            }
+          ]
+        },
+        {
+          "name": "FI-SL",
+          "children": [
+            {
+              "name": "GLFUNCA",
+              "size": 5998712
+            },
+            {
+              "name": "GLFUNCT",
+              "size": 89104
+            },
+            {
+              "name": "GLIDXA",
+              "size": 1044744
+            },
+            {
+              "name": "GLT0",
+              "size": 22840
+            },
+            {
+              "name": "GRRT",
+              "size": 13256
+            },
+            {
+              "name": "SETDATA",
+              "size": 17256
+            },
+            {
+              "name": "SETHEADER",
+              "size": 3920
+            },
+            {
+              "name": "SETHEADERT",
+              "size": 105352
+            },
+            {
+              "name": "SETLEAF",
+              "size": 6160
+            },
+            {
+              "name": "SETLINET",
+              "size": 22760
+            },
+            {
+              "name": "SETNODE",
+              "size": 2400
+            },
+            {
+              "name": "SETO2N",
+              "size": 1136
+            },
+            {
+              "name": "SETS",
+              "size": 1272
+            },
+            {
+              "name": "SETUSE_REP",
+              "size": 2304
+            },
+            {
+              "name": "T800",
+              "size": 1672
+            },
+            {
+              "name": "T800S",
+              "size": 4528
+            },
+            {
+              "name": "T800T",
+              "size": 9424
+            },
+            {
+              "name": "T800Y",
+              "size": 31728
+            },
+            {
+              "name": "T801B",
+              "size": 4112
+            },
+            {
+              "name": "T801D",
+              "size": 1424
+            },
+            {
+              "name": "T801E",
+              "size": 1368
+            },
+            {
+              "name": "T801M",
+              "size": 1048
+            },
+            {
+              "name": "T802G",
+              "size": 6304
+            },
+            {
+              "name": "T802T",
+              "size": 46432
+            },
+            {
+              "name": "T803T",
+              "size": 7320
+            },
+            {
+              "name": "T804F",
+              "size": 1064
+            },
+            {
+              "name": "T804G",
+              "size": 26416
+            }
+          ]
+        },
+        {
+          "name": "FI-TV",
+          "children": [
+            {
+              "name": "FTPT_FARE_NOTE",
+              "size": 3256
+            },
+            {
+              "name": "T702C",
+              "size": 1272
+            },
+            {
+              "name": "T706B5",
+              "size": 6784
+            },
+            {
+              "name": "T706F",
+              "size": 1160
+            },
+            {
+              "name": "T706FORM_BLKHDLS",
+              "size": 13664
+            },
+            {
+              "name": "T706FORM_FIXTXTS",
+              "size": 10224
+            },
+            {
+              "name": "T706H",
+              "size": 11952
+            },
+            {
+              "name": "T706O",
+              "size": 47232
+            },
+            {
+              "name": "T706T",
+              "size": 1592
+            },
+            {
+              "name": "T706U",
+              "size": 11552
+            },
+            {
+              "name": "T706V",
+              "size": 47096
+            },
+            {
+              "name": "T706Z1",
+              "size": 9504
+            },
+            {
+              "name": "T706_CITY_CD_D",
+              "size": 10800
+            },
+            {
+              "name": "T706_CITY_CODE",
+              "size": 6688
+            },
+            {
+              "name": "T706_CONSTTEXT",
+              "size": 3056
+            },
+            {
+              "name": "TA21L",
+              "size": 10296
+            },
+            {
+              "name": "TA21L1",
+              "size": 70112
+            },
+            {
+              "name": "TA22RSF",
+              "size": 2456
+            },
+            {
+              "name": "TA22RSF1",
+              "size": 5728
+            },
+            {
+              "name": "TA22RSS",
+              "size": 45600
+            },
+            {
+              "name": "TA22RSSY",
+              "size": 23144
+            },
+            {
+              "name": "TA23HOTELS",
+              "size": 53864
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FIN",
+      "children": [
+        {
+          "name": "FIN-CGV",
+          "children": [
+            {
+              "name": "FOPCCONT1",
+              "size": 9384
+            },
+            {
+              "name": "FOPCTASKT",
+              "size": 1032
+            },
+            {
+              "name": "HRP1816",
+              "size": 1120
+            }
+          ]
+        },
+        {
+          "name": "FIN-FB",
+          "children": [
+            {
+              "name": "FINB_TR_DERIVE",
+              "size": 1368
+            },
+            {
+              "name": "FINB_TR_TXT_K",
+              "size": 1504
+            },
+            {
+              "name": "UAB_FXML",
+              "size": 9808
+            },
+            {
+              "name": "UGMDTRANS",
+              "size": 17312
+            },
+            {
+              "name": "UGMDTRTXT2",
+              "size": 19592
+            }
+          ]
+        },
+        {
+          "name": "FIN-FSCM",
+          "children": [
+            {
+              "name": "AT80",
+              "size": 8880
+            },
+            {
+              "name": "DIFT_POS_IDENT",
+              "size": 16544
+            },
+            {
+              "name": "FDFIEP",
+              "size": 12848
+            },
+            {
+              "name": "FDT1",
+              "size": 2400
+            },
+            {
+              "name": "RDBPA_REC_HEADER",
+              "size": 1000
+            },
+            {
+              "name": "RDBRA_NSUM_TBG",
+              "size": 12640
+            },
+            {
+              "name": "RDBRA_NSUM_TBP",
+              "size": 1848
+            },
+            {
+              "name": "RDBRA_NSUM_TVK",
+              "size": 2096
+            },
+            {
+              "name": "RDBRA_TBG",
+              "size": 1336
+            },
+            {
+              "name": "REFH",
+              "size": 1992
+            },
+            {
+              "name": "REFON",
+              "size": 4528
+            },
+            {
+              "name": "SLDT_EVENT",
+              "size": 4552
+            },
+            {
+              "name": "SLDT_FLOW",
+              "size": 51000
+            },
+            {
+              "name": "SLDT_TRANSACTION",
+              "size": 22408
+            },
+            {
+              "name": "T035U",
+              "size": 7016
+            },
+            {
+              "name": "T036V",
+              "size": 1352
+            },
+            {
+              "name": "TRACC_AA_REF_T",
+              "size": 2752
+            },
+            {
+              "name": "TRACC_MIG_ACCDET",
+              "size": 1304
+            },
+            {
+              "name": "TRACT_POSCONTEXT",
+              "size": 6352
+            },
+            {
+              "name": "TRAC_POSTRULE_T",
+              "size": 2400
+            },
+            {
+              "name": "TRDC_DFLOWTYPE_T",
+              "size": 9192
+            },
+            {
+              "name": "TRDT_FLOW",
+              "size": 24952
+            },
+            {
+              "name": "TRDT_TRDBUSTRANS",
+              "size": 25512
+            },
+            {
+              "name": "TRGT_USER_DATA",
+              "size": 34144
+            },
+            {
+              "name": "TRLT_FLOW",
+              "size": 36368
+            },
+            {
+              "name": "TRLT_POSITION",
+              "size": 8648
+            },
+            {
+              "name": "TRLT_TRANSACTION",
+              "size": 38120
+            },
+            {
+              "name": "TZKN2",
+              "size": 1992
+            },
+            {
+              "name": "TZKN2T",
+              "size": 31408
+            },
+            {
+              "name": "TZKN6",
+              "size": 1600
+            },
+            {
+              "name": "TZKN8",
+              "size": 1600
+            },
+            {
+              "name": "TZKN8T",
+              "size": 26000
+            },
+            {
+              "name": "UKM_TRANSFER_AR",
+              "size": 1680
+            },
+            {
+              "name": "VTBFHA",
+              "size": 5648
+            },
+            {
+              "name": "VTBFHAPO",
+              "size": 21584
+            },
+            {
+              "name": "VTBFHAZU",
+              "size": 7440
+            },
+            {
+              "name": "VTBKORES",
+              "size": 3088
+            },
+            {
+              "name": "VTBRATE",
+              "size": 3232
+            },
+            {
+              "name": "VTBTRA1",
+              "size": 1120
+            },
+            {
+              "name": "VTBZV",
+              "size": 6016
+            },
+            {
+              "name": "VZDTXT",
+              "size": 12464
+            },
+            {
+              "name": "VZSTXT",
+              "size": 2688
+            }
+          ]
+        },
+        {
+          "name": "FIN-SEM",
+          "children": [
+            {
+              "name": "BDSCONT15",
+              "size": 1768
+            },
+            {
+              "name": "BDSPHIO15",
+              "size": 1112
+            },
+            {
+              "name": "UMB_BC_OB101",
+              "size": 1784
+            },
+            {
+              "name": "UMC_STD_XML",
+              "size": 1104
+            },
+            {
+              "name": "UPBX",
+              "size": 2088
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FS",
+      "children": [
+        {
+          "name": "FS-CML",
+          "children": [
+            {
+              "name": "TDA5T",
+              "size": 4640
+            },
+            {
+              "name": "TZB0L",
+              "size": 1288
+            },
+            {
+              "name": "TZB0W",
+              "size": 2016
+            }
+          ]
+        },
+        {
+          "name": "FS-CMS",
+          "children": [
+            {
+              "name": "TCMS_PCN_ACTVT_T",
+              "size": 7392
+            },
+            {
+              "name": "TCMS_PCN_A_GRP_T",
+              "size": 1920
+            },
+            {
+              "name": "TCMS_PCN_A_MSG",
+              "size": 3552
+            }
+          ]
+        },
+        {
+          "name": "FS-SR",
+          "children": [
+            {
+              "name": "TISSR_OUT_FICUST",
+              "size": 1296
+            },
+            {
+              "name": "TISSR_OUT_MTIMPA",
+              "size": 1184
+            },
+            {
+              "name": "TISSR_OUT_SULV",
+              "size": 2296
+            },
+            {
+              "name": "TISSR_OUT_UEXIT",
+              "size": 1168
+            },
+            {
+              "name": "TZBAG",
+              "size": 1568
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ICM",
+      "children": [
+        {
+          "name": "ICM",
+          "children": [
+            {
+              "name": "CACS_HRLOG",
+              "size": 2392
+            },
+            {
+              "name": "TCACS_MAP20_T",
+              "size": 1072
+            },
+            {
+              "name": "TCACS_PERIOD",
+              "size": 18296
+            },
+            {
+              "name": "TCACS_RESULT_T",
+              "size": 1256
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IS",
+      "children": [
+        {
+          "name": "IS-B",
+          "children": [
+            {
+              "name": "FIPR_VA_VALUE2",
+              "size": 5592
+            },
+            {
+              "name": "I73TRM",
+              "size": 1280
+            },
+            {
+              "name": "JBDOBJ1",
+              "size": 2304
+            },
+            {
+              "name": "JBDOBJZU",
+              "size": 1272
+            },
+            {
+              "name": "JBKLOBJ1",
+              "size": 2408
+            },
+            {
+              "name": "JBROBJ1",
+              "size": 1048
+            }
+          ]
+        },
+        {
+          "name": "IS-DFS",
+          "children": [
+            {
+              "name": "/ISDFPS/CBRNCHAT",
+              "size": 2304
+            },
+            {
+              "name": "/ISDFPS/CFDPSA02",
+              "size": 1088
+            },
+            {
+              "name": "/ISDFPS/SC_FIDLT",
+              "size": 2192
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LE",
+      "children": [
+        {
+          "name": "LE-MOB",
+          "children": [
+            {
+              "name": "T3130B",
+              "size": 7048
+            }
+          ]
+        },
+        {
+          "name": "LE-SHP",
+          "children": [
+            {
+              "name": "LIKP",
+              "size": 8216
+            },
+            {
+              "name": "LIPS",
+              "size": 23728
+            },
+            {
+              "name": "VLKPA",
+              "size": 2624
+            },
+            {
+              "name": "VLPMA",
+              "size": 3392
+            }
+          ]
+        },
+        {
+          "name": "LE-TRA",
+          "children": [
+            {
+              "name": "VFSCAR2",
+              "size": 2808
+            },
+            {
+              "name": "VTRDI",
+              "size": 2544
+            }
+          ]
+        },
+        {
+          "name": "LE-TRM",
+          "children": [
+            {
+              "name": "LFCTX",
+              "size": 1176
+            }
+          ]
+        },
+        {
+          "name": "LE-WM",
+          "children": [
+            {
+              "name": "LAGP",
+              "size": 10408
+            },
+            {
+              "name": "LQUA",
+              "size": 2584
+            },
+            {
+              "name": "LTAK",
+              "size": 3768
+            },
+            {
+              "name": "LTAP",
+              "size": 15768
+            },
+            {
+              "name": "T301T",
+              "size": 5584
+            },
+            {
+              "name": "T302T",
+              "size": 5200
+            },
+            {
+              "name": "T303T",
+              "size": 1800
+            },
+            {
+              "name": "T305T",
+              "size": 1216
+            },
+            {
+              "name": "T307T",
+              "size": 3712
+            },
+            {
+              "name": "T308T",
+              "size": 1720
+            },
+            {
+              "name": "T329T",
+              "size": 2568
+            },
+            {
+              "name": "T333T",
+              "size": 11216
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LO",
+      "children": [
+        {
+          "name": "LO-LIS",
+          "children": [
+            {
+              "name": "MC02M_0HDRSETUP",
+              "size": 5168
+            },
+            {
+              "name": "MC02M_0ITMSETUP",
+              "size": 11104
+            },
+            {
+              "name": "MC02M_0SCLSETUP",
+              "size": 13104
+            },
+            {
+              "name": "MC02M_0SGRSETUP",
+              "size": 1472
+            },
+            {
+              "name": "MC03BF0SETUP",
+              "size": 3712
+            },
+            {
+              "name": "MC04P_0ARBSETUP",
+              "size": 33168
+            },
+            {
+              "name": "MC04P_0COMSETUP",
+              "size": 15584
+            },
+            {
+              "name": "MC04P_0MATSETUP",
+              "size": 18336
+            },
+            {
+              "name": "MC11VA0HDRSETUP",
+              "size": 10640
+            },
+            {
+              "name": "MC11VA0ITMSETUP",
+              "size": 26616
+            },
+            {
+              "name": "MC11VA0KONSETUP",
+              "size": 28160
+            },
+            {
+              "name": "MC11VA0SCLSETUP",
+              "size": 24552
+            },
+            {
+              "name": "MC11VA0STHSETUP",
+              "size": 6592
+            },
+            {
+              "name": "MC11VA0STISETUP",
+              "size": 6936
+            },
+            {
+              "name": "MC11V_0ITMSETUP",
+              "size": 17912
+            },
+            {
+              "name": "MC11V_0SCLSETUP",
+              "size": 20152
+            },
+            {
+              "name": "MC11V_0SSLSETUP",
+              "size": 10680
+            },
+            {
+              "name": "MC12VC0HDRSETUP",
+              "size": 20904
+            },
+            {
+              "name": "MC12VC0ITMSETUP",
+              "size": 33472
+            },
+            {
+              "name": "MC12VC0SCLSETUP",
+              "size": 18968
+            },
+            {
+              "name": "MC13VD0HDRSETUP",
+              "size": 35480
+            },
+            {
+              "name": "MC13VD0ITMSETUP",
+              "size": 71992
+            },
+            {
+              "name": "MC13VD0KONSETUP",
+              "size": 87680
+            },
+            {
+              "name": "MCLIO",
+              "size": 1184
+            },
+            {
+              "name": "MCLIT",
+              "size": 6520
+            },
+            {
+              "name": "MCSI",
+              "size": 7960
+            },
+            {
+              "name": "MCSLOG",
+              "size": 4640
+            },
+            {
+              "name": "S001",
+              "size": 6480
+            },
+            {
+              "name": "S002",
+              "size": 1696
+            },
+            {
+              "name": "S003",
+              "size": 6192
+            },
+            {
+              "name": "S004",
+              "size": 4576
+            },
+            {
+              "name": "S005",
+              "size": 1376
+            },
+            {
+              "name": "S006",
+              "size": 6296
+            },
+            {
+              "name": "S009",
+              "size": 2936
+            },
+            {
+              "name": "S012",
+              "size": 10304
+            },
+            {
+              "name": "S021",
+              "size": 1288
+            },
+            {
+              "name": "S022",
+              "size": 13400
+            },
+            {
+              "name": "S026",
+              "size": 6672
+            },
+            {
+              "name": "S027",
+              "size": 10736
+            },
+            {
+              "name": "S031",
+              "size": 12448
+            },
+            {
+              "name": "S032",
+              "size": 5408
+            },
+            {
+              "name": "S033",
+              "size": 37944
+            },
+            {
+              "name": "S077",
+              "size": 5744
+            },
+            {
+              "name": "S080",
+              "size": 8472
+            },
+            {
+              "name": "S083",
+              "size": 23600
+            },
+            {
+              "name": "S084",
+              "size": 3144
+            },
+            {
+              "name": "S086",
+              "size": 4824
+            },
+            {
+              "name": "S087",
+              "size": 2120
+            },
+            {
+              "name": "S090",
+              "size": 1024
+            },
+            {
+              "name": "S105",
+              "size": 6632
+            },
+            {
+              "name": "S108",
+              "size": 2880
+            },
+            {
+              "name": "S110",
+              "size": 6560
+            },
+            {
+              "name": "S117",
+              "size": 14488
+            },
+            {
+              "name": "S119",
+              "size": 7992
+            },
+            {
+              "name": "S120",
+              "size": 27704
+            },
+            {
+              "name": "S121",
+              "size": 13584
+            },
+            {
+              "name": "S122",
+              "size": 3192
+            },
+            {
+              "name": "S123",
+              "size": 1672
+            },
+            {
+              "name": "S124",
+              "size": 3360
+            },
+            {
+              "name": "S130",
+              "size": 3480
+            },
+            {
+              "name": "S150",
+              "size": 1936
+            },
+            {
+              "name": "S159",
+              "size": 3688
+            },
+            {
+              "name": "S160",
+              "size": 18800
+            },
+            {
+              "name": "S195BIW1",
+              "size": 10720
+            },
+            {
+              "name": "S196BIW1",
+              "size": 11120
+            },
+            {
+              "name": "S226",
+              "size": 1760
+            },
+            {
+              "name": "S227",
+              "size": 1808
+            },
+            {
+              "name": "S260",
+              "size": 50864
+            },
+            {
+              "name": "S260BIW1",
+              "size": 40560
+            },
+            {
+              "name": "S261",
+              "size": 64104
+            },
+            {
+              "name": "S261BIW1",
+              "size": 57008
+            },
+            {
+              "name": "S262",
+              "size": 36856
+            },
+            {
+              "name": "S262BIW1",
+              "size": 33272
+            },
+            {
+              "name": "S263",
+              "size": 43488
+            },
+            {
+              "name": "S263BIW1",
+              "size": 50480
+            },
+            {
+              "name": "S275",
+              "size": 21080
+            },
+            {
+              "name": "S275BIW1",
+              "size": 17312
+            },
+            {
+              "name": "S276",
+              "size": 7688
+            },
+            {
+              "name": "S276BIW1",
+              "size": 6120
+            },
+            {
+              "name": "S278",
+              "size": 2896
+            },
+            {
+              "name": "S279",
+              "size": 22344
+            },
+            {
+              "name": "S279BIW1",
+              "size": 25704
+            },
+            {
+              "name": "S501",
+              "size": 2872
+            },
+            {
+              "name": "S515",
+              "size": 6336
+            },
+            {
+              "name": "S628",
+              "size": 23600
+            },
+            {
+              "name": "S730",
+              "size": 1128
+            },
+            {
+              "name": "S806",
+              "size": 8824
+            },
+            {
+              "name": "S807",
+              "size": 3856
+            },
+            {
+              "name": "S808",
+              "size": 3856
+            },
+            {
+              "name": "S809",
+              "size": 11080
+            },
+            {
+              "name": "S810",
+              "size": 3472
+            },
+            {
+              "name": "S843",
+              "size": 1352
+            },
+            {
+              "name": "S880",
+              "size": 6856
+            },
+            {
+              "name": "S905",
+              "size": 1576
+            },
+            {
+              "name": "S953",
+              "size": 15144
+            },
+            {
+              "name": "S954",
+              "size": 8152
+            },
+            {
+              "name": "S955",
+              "size": 1256
+            },
+            {
+              "name": "S958",
+              "size": 1960
+            },
+            {
+              "name": "TFCF",
+              "size": 1128
+            },
+            {
+              "name": "TFCT",
+              "size": 1856
+            },
+            {
+              "name": "TMC2D",
+              "size": 3272
+            },
+            {
+              "name": "TMC2F",
+              "size": 2584
+            },
+            {
+              "name": "TMC2K",
+              "size": 16416
+            },
+            {
+              "name": "TMC4T",
+              "size": 1808
+            },
+            {
+              "name": "TMC7T",
+              "size": 2480
+            },
+            {
+              "name": "TMCLVBWT",
+              "size": 1272
+            }
+          ]
+        },
+        {
+          "name": "LO-MD",
+          "children": [
+            {
+              "name": "KNA1",
+              "size": 6192
+            },
+            {
+              "name": "KNVK",
+              "size": 4144
+            },
+            {
+              "name": "KNVV",
+              "size": 7672
+            },
+            {
+              "name": "MAKT",
+              "size": 24304
+            },
+            {
+              "name": "MARA",
+              "size": 13336
+            },
+            {
+              "name": "MARC",
+              "size": 19896
+            },
+            {
+              "name": "MARCH",
+              "size": 2368
+            },
+            {
+              "name": "MARD",
+              "size": 4984
+            },
+            {
+              "name": "MARDH",
+              "size": 4744
+            },
+            {
+              "name": "MARM",
+              "size": 2680
+            },
+            {
+              "name": "MBEW",
+              "size": 12736
+            },
+            {
+              "name": "MBEWH",
+              "size": 12936
+            },
+            {
+              "name": "MLAN",
+              "size": 1696
+            },
+            {
+              "name": "MOFF",
+              "size": 49952
+            },
+            {
+              "name": "MSTA",
+              "size": 28496
+            },
+            {
+              "name": "MVER",
+              "size": 1472
+            },
+            {
+              "name": "MVKE",
+              "size": 4440
+            },
+            {
+              "name": "OBJK",
+              "size": 1584
+            },
+            {
+              "name": "STAS",
+              "size": 3528
+            },
+            {
+              "name": "STPO",
+              "size": 10056
+            },
+            {
+              "name": "T133B",
+              "size": 11680
+            },
+            {
+              "name": "USRM2",
+              "size": 1096
+            },
+            {
+              "name": "WRFMATFGROUPT",
+              "size": 1472
+            }
+          ]
+        },
+        {
+          "name": "LO-PDM",
+          "children": [
+            {
+              "name": "FILTERDEF",
+              "size": 1008
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MM",
+      "children": [
+        {
+          "name": "MM-IM",
+          "children": [
+            {
+              "name": "MARI",
+              "size": 2088
+            },
+            {
+              "name": "MKPF",
+              "size": 1208
+            },
+            {
+              "name": "MSEG",
+              "size": 8024
+            },
+            {
+              "name": "RESB",
+              "size": 1920
+            },
+            {
+              "name": "RKPF",
+              "size": 1184
+            },
+            {
+              "name": "S465",
+              "size": 1208
+            },
+            {
+              "name": "T156HT",
+              "size": 1272
+            },
+            {
+              "name": "T156S",
+              "size": 1776
+            },
+            {
+              "name": "T156SC",
+              "size": 1112
+            },
+            {
+              "name": "T156T",
+              "size": 13576
+            },
+            {
+              "name": "T156X",
+              "size": 1320
+            }
+          ]
+        },
+        {
+          "name": "MM-IS",
+          "children": [
+            {
+              "name": "PROP",
+              "size": 1664
+            },
+            {
+              "name": "S195",
+              "size": 9456
+            },
+            {
+              "name": "S196",
+              "size": 10336
+            }
+          ]
+        },
+        {
+          "name": "MM-IV",
+          "children": [
+            {
+              "name": "BSIM",
+              "size": 25368
+            },
+            {
+              "name": "RBKP",
+              "size": 3760
+            },
+            {
+              "name": "RSEG",
+              "size": 6608
+            }
+          ]
+        },
+        {
+          "name": "MM-PUR",
+          "children": [
+            {
+              "name": "EBAN",
+              "size": 2552
+            },
+            {
+              "name": "EINA",
+              "size": 1168
+            },
+            {
+              "name": "EINE",
+              "size": 1576
+            },
+            {
+              "name": "EIPA",
+              "size": 4600
+            },
+            {
+              "name": "EKBE",
+              "size": 24648
+            },
+            {
+              "name": "EKET",
+              "size": 16240
+            },
+            {
+              "name": "EKKO",
+              "size": 9856
+            },
+            {
+              "name": "EKPA",
+              "size": 2616
+            },
+            {
+              "name": "EKPO",
+              "size": 35680
+            },
+            {
+              "name": "EKPV",
+              "size": 1288
+            }
+          ]
+        },
+        {
+          "name": "MM-SRV",
+          "children": [
+            {
+              "name": "ESDUS",
+              "size": 2688
+            },
+            {
+              "name": "ESLL",
+              "size": 2800
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NotAssigned",
+      "children": [
+        {
+          "name": "NotAssigned",
+          "children": [
+            {
+              "name": "/DVD/AF_RESULT",
+              "size": 5341768
+            },
+            {
+              "name": "/DVD/BCK_CLU",
+              "size": 2992072
+            },
+            {
+              "name": "/DVD/BCK_DDIC",
+              "size": 5984
+            },
+            {
+              "name": "/DVD/CCE_TABCONT",
+              "size": 1720
+            },
+            {
+              "name": "/DVD/CLIDEL_ANL",
+              "size": 3440
+            },
+            {
+              "name": "/DVD/CLIDEL_LOG",
+              "size": 245304
+            },
+            {
+              "name": "/DVD/DFXAB_TEST",
+              "size": 2376
+            },
+            {
+              "name": "/DVD/DFXAB_TESTX",
+              "size": 1944
+            },
+            {
+              "name": "/DVD/DFXBEN_D_1",
+              "size": 1912
+            },
+            {
+              "name": "/DVD/DFXC_DEBI1",
+              "size": 2680
+            },
+            {
+              "name": "/DVD/DFXC_DEBI31",
+              "size": 2576
+            },
+            {
+              "name": "/DVD/DFXC_DEBI4",
+              "size": 403496
+            },
+            {
+              "name": "/DVD/DFXC_DEBIX",
+              "size": 2704
+            },
+            {
+              "name": "/DVD/DFXC_KRED5",
+              "size": 4720
+            },
+            {
+              "name": "/DVD/DFXC_MAT3",
+              "size": 69464
+            },
+            {
+              "name": "/DVD/DFXC_MAT4",
+              "size": 90176
+            },
+            {
+              "name": "/DVD/DFXC_MAT4A",
+              "size": 79472
+            },
+            {
+              "name": "/DVD/DFXC_MAT4_B",
+              "size": 82344
+            },
+            {
+              "name": "/DVD/DFXC_MAT4_T",
+              "size": 79992
+            },
+            {
+              "name": "/DVD/DFXC_SERV1",
+              "size": 6096
+            },
+            {
+              "name": "/DVD/DFXC_SERV2",
+              "size": 2912
+            },
+            {
+              "name": "/DVD/DFXDEB_2",
+              "size": 1920
+            },
+            {
+              "name": "/DVD/DFXDEB_T",
+              "size": 1928
+            },
+            {
+              "name": "/DVD/DFXDF_BEN01",
+              "size": 1880
+            },
+            {
+              "name": "/DVD/DFYAB_TEST",
+              "size": 6240
+            },
+            {
+              "name": "/DVD/DFYBEN_D_1",
+              "size": 4960
+            },
+            {
+              "name": "/DVD/DFYBP_TEST",
+              "size": 1288
+            },
+            {
+              "name": "/DVD/DFYC_DEBI1",
+              "size": 6472
+            },
+            {
+              "name": "/DVD/DFYC_KRED1",
+              "size": 1168
+            },
+            {
+              "name": "/DVD/DFYC_MAT2",
+              "size": 195256
+            },
+            {
+              "name": "/DVD/DFYC_MAT4",
+              "size": 220960
+            },
+            {
+              "name": "/DVD/DFYDF_BEN01",
+              "size": 4328
+            },
+            {
+              "name": "/DVD/DFYDVP_CRM1",
+              "size": 1104
+            },
+            {
+              "name": "/DVD/DF_RENAME",
+              "size": 961880
+            },
+            {
+              "name": "/DVD/DF_RENAME_1",
+              "size": 960840
+            },
+            {
+              "name": "/DVD/DF_RESULT",
+              "size": 13824
+            },
+            {
+              "name": "/DVD/DF_SWL",
+              "size": 161392
+            },
+            {
+              "name": "/DVD/DF_TASKS",
+              "size": 174456
+            },
+            {
+              "name": "/DVD/DT_CDOC",
+              "size": 2184
+            },
+            {
+              "name": "/DVD/DT_CLU",
+              "size": 181696
+            },
+            {
+              "name": "/DVD/DT_FIELD",
+              "size": 3688
+            },
+            {
+              "name": "/DVD/DT_LOG_MAP",
+              "size": 1768
+            },
+            {
+              "name": "/DVD/DT_TABLE",
+              "size": 1096
+            },
+            {
+              "name": "/DVD/DT_TASK",
+              "size": 1824
+            },
+            {
+              "name": "/DVD/EST_ADRNR",
+              "size": 15912
+            },
+            {
+              "name": "/DVD/EST_AN01",
+              "size": 7360
+            },
+            {
+              "name": "/DVD/EST_BO_RS",
+              "size": 5832
+            },
+            {
+              "name": "/DVD/EST_CLD",
+              "size": 12142584
+            },
+            {
+              "name": "/DVD/EST_CLD_ADR",
+              "size": 23584
+            },
+            {
+              "name": "/DVD/EST_DELTAB",
+              "size": 2800
+            },
+            {
+              "name": "/DVD/EST_KNUMH",
+              "size": 4672
+            },
+            {
+              "name": "/DVD/EST_MAP_RI",
+              "size": 3968
+            },
+            {
+              "name": "/DVD/EST_OBJNR",
+              "size": 18912
+            },
+            {
+              "name": "/DVD/EST_RUN_STA",
+              "size": 42864
+            },
+            {
+              "name": "/DVD/EST_TABC",
+              "size": 23696
+            },
+            {
+              "name": "/DVD/EST_TABCID",
+              "size": 61656
+            },
+            {
+              "name": "/DVD/EST_TABL",
+              "size": 15984
+            },
+            {
+              "name": "/DVD/EST_TABP",
+              "size": 3584
+            },
+            {
+              "name": "/DVD/EST_TAB_RI",
+              "size": 44960
+            },
+            {
+              "name": "/DVD/EST_TAB_TH",
+              "size": 44920
+            },
+            {
+              "name": "/DVD/EST_TDNAME",
+              "size": 9352
+            },
+            {
+              "name": "/DVD/EXP_TAB_SO",
+              "size": 2448
+            },
+            {
+              "name": "/DVD/FM_CLU",
+              "size": 219464
+            },
+            {
+              "name": "/DVD/FT_S4RESCL",
+              "size": 3720
+            },
+            {
+              "name": "/DVD/HVS_MAP",
+              "size": 4856
+            },
+            {
+              "name": "/DVD/HVS_PROG",
+              "size": 5000
+            },
+            {
+              "name": "/DVD/HVS_RESULT",
+              "size": 2248
+            },
+            {
+              "name": "/DVD/HVS_RESULTA",
+              "size": 2072
+            },
+            {
+              "name": "/DVD/ORG",
+              "size": 37096
+            },
+            {
+              "name": "/DVD/ORG_DEP",
+              "size": 36872
+            },
+            {
+              "name": "/DVD/RL_ANL_CL",
+              "size": 13352
+            },
+            {
+              "name": "/DVD/RL_ANL_THCL",
+              "size": 1960
+            },
+            {
+              "name": "/DVD/RL_ANL_THVR",
+              "size": 1440
+            },
+            {
+              "name": "/DVD/SCNR_NRIV",
+              "size": 94488
+            },
+            {
+              "name": "/DVD/SCNR_TNRO",
+              "size": 11640
+            },
+            {
+              "name": "/DVD/SCWB_FILE",
+              "size": 5992
+            },
+            {
+              "name": "/DVD/SCWB_GAV",
+              "size": 90408
+            },
+            {
+              "name": "/DVD/SDM_RELOBJ",
+              "size": 15304
+            },
+            {
+              "name": "/DVD/TH_EXEC",
+              "size": 805144
+            },
+            {
+              "name": "/DVD/TH_EXECATTR",
+              "size": 2240
+            },
+            {
+              "name": "/DVD/TH_EXECPAR",
+              "size": 535816
+            },
+            {
+              "name": "/DVD/TH_EXECT",
+              "size": 389912
+            },
+            {
+              "name": "/DVD/TH_JOB",
+              "size": 1000
+            },
+            {
+              "name": "/DVD/TH_LOG",
+              "size": 178760
+            },
+            {
+              "name": "PA9990",
+              "size": 64448
+            },
+            {
+              "name": "PA9991",
+              "size": 2872
+            },
+            {
+              "name": "PA9995",
+              "size": 65352
+            },
+            {
+              "name": "PA9996",
+              "size": 1024
+            },
+            {
+              "name": "S960",
+              "size": 2872
+            },
+            {
+              "name": "YEST9000000147",
+              "size": 11568
+            },
+            {
+              "name": "YEST9000000722",
+              "size": 1296
+            },
+            {
+              "name": "YEST9000100214",
+              "size": 1048
+            },
+            {
+              "name": "YEST9000190001",
+              "size": 1544
+            },
+            {
+              "name": "YEST_SC_SC052_C",
+              "size": 11624
+            },
+            {
+              "name": "YEST_SC_SC057_C",
+              "size": 9544
+            },
+            {
+              "name": "YEST_SC_SC058_C",
+              "size": 2088
+            },
+            {
+              "name": "YEST_SC_SC060_C",
+              "size": 1152
+            },
+            {
+              "name": "YEST_SC_SC063_C",
+              "size": 20208
+            },
+            {
+              "name": "YEST_SC_SC073_C",
+              "size": 5040
+            },
+            {
+              "name": "YEST_SC_SC074_C",
+              "size": 1112
+            },
+            {
+              "name": "YSLO_FI_BAL",
+              "size": 2432
+            },
+            {
+              "name": "ZARIXFI1",
+              "size": 68128
+            },
+            {
+              "name": "ZARIXFI2",
+              "size": 57912
+            },
+            {
+              "name": "ZARIXFI3",
+              "size": 2416
+            },
+            {
+              "name": "ZARIXFI4",
+              "size": 2528
+            },
+            {
+              "name": "ZARIXFI7",
+              "size": 3696
+            },
+            {
+              "name": "ZARIXFI8",
+              "size": 31896
+            },
+            {
+              "name": "ZBT_ZARIX1",
+              "size": 27896
+            },
+            {
+              "name": "ZBT_ZARIX2",
+              "size": 2856
+            },
+            {
+              "name": "ZCASWW_FI_MD_MIG",
+              "size": 81808
+            },
+            {
+              "name": "ZIDES_USR02",
+              "size": 1392
+            },
+            {
+              "name": "ZMA_TEST",
+              "size": 7128
+            },
+            {
+              "name": "ZPM_MAPP_CONTI",
+              "size": 2584
+            },
+            {
+              "name": "ZPS13",
+              "size": 2120
+            },
+            {
+              "name": "ZRP1001",
+              "size": 1800
+            },
+            {
+              "name": "ZSCD_BCK_CLU",
+              "size": 31072
+            },
+            {
+              "name": "ZSCD_BCK_LIST",
+              "size": 12240
+            },
+            {
+              "name": "ZSCD_BWCLU",
+              "size": 4608
+            },
+            {
+              "name": "ZSCD_DFXDEBI_04",
+              "size": 10168
+            },
+            {
+              "name": "ZSCD_DFXDEBI_13",
+              "size": 40008
+            },
+            {
+              "name": "ZSCD_DFXDEBI_21",
+              "size": 43128
+            },
+            {
+              "name": "ZSCD_DFXDEBI_21F",
+              "size": 125120
+            },
+            {
+              "name": "ZSCD_DFXDEBI_21G",
+              "size": 1616
+            },
+            {
+              "name": "ZSCD_DFXDEBI_31",
+              "size": 15320
+            },
+            {
+              "name": "ZSCD_DFXKRED_04",
+              "size": 40256
+            },
+            {
+              "name": "ZSCD_DFXKRED_13",
+              "size": 57200
+            },
+            {
+              "name": "ZSCD_DFXKRED_21",
+              "size": 43048
+            },
+            {
+              "name": "ZSCD_DFXKRED_31",
+              "size": 20824
+            },
+            {
+              "name": "ZSCD_DFXKRED_D1",
+              "size": 5896
+            },
+            {
+              "name": "ZSCD_DF_MP1",
+              "size": 2656
+            },
+            {
+              "name": "ZSCD_FILE_CLU",
+              "size": 15232
+            },
+            {
+              "name": "ZSCD_SCNR_NRIV",
+              "size": 11048
+            },
+            {
+              "name": "ZSCD_SCNR_TNRO",
+              "size": 1088
+            },
+            {
+              "name": "ZSCD_SCWB_GAV",
+              "size": 177104
+            },
+            {
+              "name": "ZSEMBPSA",
+              "size": 44448
+            },
+            {
+              "name": "ZSEMBPST",
+              "size": 3048
+            },
+            {
+              "name": "ZSLO_A",
+              "size": 14928
+            },
+            {
+              "name": "ZTIT_TRACK",
+              "size": 2952
+            },
+            {
+              "name": "ZZIP",
+              "size": 5896
+            },
+            {
+              "name": "ZZSL01A",
+              "size": 79792
+            },
+            {
+              "name": "ZZSL01T",
+              "size": 6168
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PA",
+      "children": [
+        {
+          "name": "PA-AS",
+          "children": [
+            {
+              "name": "ASRLORE03",
+              "size": 1592
+            },
+            {
+              "name": "T5ASRFSCNFLDHLPT",
+              "size": 1520
+            },
+            {
+              "name": "T5ASRFSCNFLDT",
+              "size": 23792
+            },
+            {
+              "name": "T5ASRFSCNPAMAP",
+              "size": 1480
+            }
+          ]
+        },
+        {
+          "name": "PA-BN",
+          "children": [
+            {
+              "name": "T5UCA",
+              "size": 1440
+            },
+            {
+              "name": "T5UCH",
+              "size": 2256
+            }
+          ]
+        },
+        {
+          "name": "PA-CM",
+          "children": [
+            {
+              "name": "PCL5",
+              "size": 17912
+            },
+            {
+              "name": "T510_PSRCL",
+              "size": 3472
+            }
+          ]
+        },
+        {
+          "name": "PA-CP",
+          "children": [
+            {
+              "name": "PA0666",
+              "size": 2176
+            }
+          ]
+        },
+        {
+          "name": "PA-EC",
+          "children": [
+            {
+              "name": "PA0758",
+              "size": 1368
+            }
+          ]
+        },
+        {
+          "name": "PA-ER",
+          "children": [
+            {
+              "name": "PCL_RCF",
+              "size": 1184
+            }
+          ]
+        },
+        {
+          "name": "PA-ES",
+          "children": [
+            {
+              "name": "T7XSSPERBIZFLDT",
+              "size": 6008
+            }
+          ]
+        },
+        {
+          "name": "PA-OS",
+          "children": [
+            {
+              "name": "HRP1007",
+              "size": 1568
+            },
+            {
+              "name": "T77I5",
+              "size": 1400
+            }
+          ]
+        },
+        {
+          "name": "PA-PA",
+          "children": [
+            {
+              "name": "PA0000",
+              "size": 1176
+            },
+            {
+              "name": "PA0001",
+              "size": 3752
+            },
+            {
+              "name": "PA0002",
+              "size": 2224
+            },
+            {
+              "name": "PA0003",
+              "size": 2216
+            },
+            {
+              "name": "PA0006",
+              "size": 1952
+            },
+            {
+              "name": "PA0008",
+              "size": 6008
+            },
+            {
+              "name": "PA0009",
+              "size": 1600
+            },
+            {
+              "name": "PA0105",
+              "size": 1464
+            },
+            {
+              "name": "PA0302",
+              "size": 1128
+            },
+            {
+              "name": "PA0402",
+              "size": 24672
+            },
+            {
+              "name": "PA0447",
+              "size": 11936
+            },
+            {
+              "name": "PA0448",
+              "size": 12120
+            },
+            {
+              "name": "PAD_ENQ_LOG",
+              "size": 1136
+            },
+            {
+              "name": "PREL",
+              "size": 1784
+            },
+            {
+              "name": "T503T",
+              "size": 1544
+            },
+            {
+              "name": "T510",
+              "size": 18496
+            },
+            {
+              "name": "T510U",
+              "size": 3664
+            },
+            {
+              "name": "T511",
+              "size": 4592
+            },
+            {
+              "name": "T512T",
+              "size": 126624
+            },
+            {
+              "name": "T512Z",
+              "size": 2176
+            },
+            {
+              "name": "T513I",
+              "size": 1240
+            },
+            {
+              "name": "T513S",
+              "size": 1760
+            },
+            {
+              "name": "T513U",
+              "size": 4440
+            },
+            {
+              "name": "T525B",
+              "size": 1384
+            },
+            {
+              "name": "T525NT",
+              "size": 1264
+            },
+            {
+              "name": "T525PT",
+              "size": 1040
+            },
+            {
+              "name": "T527X",
+              "size": 3464
+            },
+            {
+              "name": "T528B",
+              "size": 1224
+            },
+            {
+              "name": "T528T",
+              "size": 9976
+            },
+            {
+              "name": "T52CE_T",
+              "size": 19680
+            },
+            {
+              "name": "T543D",
+              "size": 4440
+            },
+            {
+              "name": "T549C",
+              "size": 1952
+            },
+            {
+              "name": "T577S",
+              "size": 1032
+            },
+            {
+              "name": "T582S",
+              "size": 4616
+            },
+            {
+              "name": "T588Z",
+              "size": 2608
+            },
+            {
+              "name": "T591S",
+              "size": 7304
+            },
+            {
+              "name": "T599U",
+              "size": 33712
+            },
+            {
+              "name": "T5C1V",
+              "size": 1536
+            },
+            {
+              "name": "T5C2G",
+              "size": 6816
+            },
+            {
+              "name": "T5C2H",
+              "size": 153136
+            },
+            {
+              "name": "T5C2H_EXT",
+              "size": 40032
+            },
+            {
+              "name": "T5E2T",
+              "size": 1160
+            },
+            {
+              "name": "T5E40",
+              "size": 1680
+            },
+            {
+              "name": "T5EL5",
+              "size": 1336
+            },
+            {
+              "name": "T5ES5",
+              "size": 2168
+            },
+            {
+              "name": "T5F5D",
+              "size": 3216
+            },
+            {
+              "name": "T5F5E",
+              "size": 1952
+            },
+            {
+              "name": "T5ITNW",
+              "size": 1784
+            },
+            {
+              "name": "T5M5M",
+              "size": 1056
+            },
+            {
+              "name": "T5UTG",
+              "size": 1184
+            },
+            {
+              "name": "T7ARM8",
+              "size": 2744
+            },
+            {
+              "name": "T7PL50",
+              "size": 1288
+            },
+            {
+              "name": "T7PL5T",
+              "size": 4272
+            },
+            {
+              "name": "T7PLET",
+              "size": 2736
+            },
+            {
+              "name": "T7RU2P",
+              "size": 24720
+            },
+            {
+              "name": "T7RU8P",
+              "size": 12864
+            },
+            {
+              "name": "T7SIDT",
+              "size": 1472
+            },
+            {
+              "name": "T7TW2A",
+              "size": 1360
+            }
+          ]
+        },
+        {
+          "name": "PA-PD",
+          "children": [
+            {
+              "name": "T77QB",
+              "size": 1480
+            }
+          ]
+        },
+        {
+          "name": "PA-PF",
+          "children": [
+            {
+              "name": "T5CA3",
+              "size": 5480
+            },
+            {
+              "name": "T5CAD",
+              "size": 1104
+            },
+            {
+              "name": "T5CAG",
+              "size": 6712
+            }
+          ]
+        },
+        {
+          "name": "PA-PM",
+          "children": [
+            {
+              "name": "HRP1500",
+              "size": 1640
+            },
+            {
+              "name": "HRP1520",
+              "size": 1256
+            },
+            {
+              "name": "HRPADPM",
+              "size": 5128
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PE",
+      "children": [
+        {
+          "name": "PE",
+          "children": [
+            {
+              "name": "HRP1021",
+              "size": 2360
+            },
+            {
+              "name": "HRP1024",
+              "size": 2392
+            },
+            {
+              "name": "HRP1026",
+              "size": 2928
+            },
+            {
+              "name": "HRP1035",
+              "size": 2864
+            },
+            {
+              "name": "HRPAD23",
+              "size": 18648
+            },
+            {
+              "name": "HRPAD27",
+              "size": 1864
+            },
+            {
+              "name": "HRPAD53",
+              "size": 6472
+            },
+            {
+              "name": "HRT1035",
+              "size": 5824
+            },
+            {
+              "name": "HRT1060",
+              "size": 7960
+            }
+          ]
+        },
+        {
+          "name": "PE-LSO",
+          "children": [
+            {
+              "name": "LSOCRPTXTVART",
+              "size": 1848
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PLM",
+      "children": [
+        {
+          "name": "PLM-CFO",
+          "children": [
+            {
+              "name": "CFF_CONT",
+              "size": 81984
+            }
+          ]
+        },
+        {
+          "name": "PLM-CPR",
+          "children": [
+            {
+              "name": "CGPL_COPY_LINK",
+              "size": 2160
+            },
+            {
+              "name": "CGPL_ENTITY",
+              "size": 1328
+            },
+            {
+              "name": "DPR_DASHBOARD",
+              "size": 2424
+            },
+            {
+              "name": "DPR_ENTITY_LINK",
+              "size": 2216
+            },
+            {
+              "name": "DPR_FC_COND_T",
+              "size": 2224
+            },
+            {
+              "name": "DPR_FC_FG_T",
+              "size": 1360
+            },
+            {
+              "name": "DPR_TASK",
+              "size": 1256
+            },
+            {
+              "name": "EVE_XML_PERS_DB",
+              "size": 2048
+            },
+            {
+              "name": "OLR3_TABLEDF_T",
+              "size": 1848
+            }
+          ]
+        },
+        {
+          "name": "PLM-RM",
+          "children": [
+            {
+              "name": "FRMLC10",
+              "size": 1096
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PM",
+      "children": [
+        {
+          "name": "PM-EQM",
+          "children": [
+            {
+              "name": "EQKT",
+              "size": 3072
+            },
+            {
+              "name": "EQUI",
+              "size": 4040
+            },
+            {
+              "name": "EQUZ",
+              "size": 1864
+            },
+            {
+              "name": "IFLOT",
+              "size": 1992
+            },
+            {
+              "name": "IFLOTX",
+              "size": 9200
+            },
+            {
+              "name": "ILOA",
+              "size": 3608
+            },
+            {
+              "name": "IMRG",
+              "size": 1704
+            }
+          ]
+        },
+        {
+          "name": "PM-IS",
+          "children": [
+            {
+              "name": "MCIPMIS",
+              "size": 3832
+            },
+            {
+              "name": "S061",
+              "size": 1016
+            }
+          ]
+        },
+        {
+          "name": "PM-PRM",
+          "children": [
+            {
+              "name": "MHIS",
+              "size": 1320
+            }
+          ]
+        },
+        {
+          "name": "PM-WOC",
+          "children": [
+            {
+              "name": "/MRSS/D_CAG_CG_A",
+              "size": 3184
+            },
+            {
+              "name": "/MRSS/D_CAG_CG_B",
+              "size": 3184
+            },
+            {
+              "name": "/MRSS/D_CAG_CG_C",
+              "size": 3184
+            },
+            {
+              "name": "/MRSS/D_CAG_CG_D",
+              "size": 3184
+            },
+            {
+              "name": "/MRSS/D_CAG_CG_G",
+              "size": 3184
+            },
+            {
+              "name": "/MRSS/D_CAG_CG_H",
+              "size": 3184
+            },
+            {
+              "name": "/MRSS/D_RES_TA",
+              "size": 1720
+            },
+            {
+              "name": "/MRSS/D_TA_INT",
+              "size": 2208
+            },
+            {
+              "name": "/MRSS/D_WORKTIME",
+              "size": 1448
+            },
+            {
+              "name": "AFIH",
+              "size": 1040
+            },
+            {
+              "name": "PMCO",
+              "size": 1408
+            },
+            {
+              "name": "QMEL",
+              "size": 1288
+            },
+            {
+              "name": "TQSCRT",
+              "size": 1936
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PP",
+      "children": [
+        {
+          "name": "PP-BD",
+          "children": [
+            {
+              "name": "CRCO",
+              "size": 1832
+            },
+            {
+              "name": "CRHD",
+              "size": 2112
+            },
+            {
+              "name": "CRTX",
+              "size": 6600
+            },
+            {
+              "name": "KAKO",
+              "size": 1608
+            },
+            {
+              "name": "KAKT",
+              "size": 1504
+            },
+            {
+              "name": "MAPL",
+              "size": 1312
+            },
+            {
+              "name": "PLAS",
+              "size": 3440
+            },
+            {
+              "name": "PLFL",
+              "size": 1336
+            },
+            {
+              "name": "PLKO",
+              "size": 2264
+            },
+            {
+              "name": "PLMZ",
+              "size": 2232
+            },
+            {
+              "name": "PLPO",
+              "size": 18488
+            }
+          ]
+        },
+        {
+          "name": "PP-CRP",
+          "children": [
+            {
+              "name": "KBED",
+              "size": 3936
+            },
+            {
+              "name": "TCY31DT",
+              "size": 1024
+            },
+            {
+              "name": "TCY31FT",
+              "size": 3760
+            },
+            {
+              "name": "TCY31_T",
+              "size": 1168
+            },
+            {
+              "name": "TCY38T",
+              "size": 1360
+            },
+            {
+              "name": "TCY39ST",
+              "size": 8600
+            }
+          ]
+        },
+        {
+          "name": "PP-MRP",
+          "children": [
+            {
+              "name": "DBVL",
+              "size": 1560
+            },
+            {
+              "name": "DBVM",
+              "size": 2088
+            },
+            {
+              "name": "MDKP",
+              "size": 6152
+            },
+            {
+              "name": "MDTC",
+              "size": 4976
+            },
+            {
+              "name": "T438X",
+              "size": 4448
+            },
+            {
+              "name": "T444T",
+              "size": 1232
+            },
+            {
+              "name": "T460T",
+              "size": 1976
+            }
+          ]
+        },
+        {
+          "name": "PP-PI",
+          "children": [
+            {
+              "name": "AFFV",
+              "size": 9384
+            },
+            {
+              "name": "BDSCONT25",
+              "size": 3624
+            },
+            {
+              "name": "CMX_XSR_DB_CLOG",
+              "size": 9896
+            },
+            {
+              "name": "CMX_XS_DB_VS",
+              "size": 1560
+            },
+            {
+              "name": "COFV",
+              "size": 5568
+            },
+            {
+              "name": "COFVP",
+              "size": 2864
+            },
+            {
+              "name": "PLFT",
+              "size": 2560
+            },
+            {
+              "name": "PLFV",
+              "size": 25136
+            },
+            {
+              "name": "POC_DB_C_COMMAND",
+              "size": 4072
+            },
+            {
+              "name": "POC_DB_C_METADAT",
+              "size": 3560
+            },
+            {
+              "name": "POC_DB_C_OPER",
+              "size": 1200
+            },
+            {
+              "name": "POC_DB_C_STEP",
+              "size": 1184
+            },
+            {
+              "name": "POC_DB_C_VALUE",
+              "size": 1360
+            },
+            {
+              "name": "POC_DB_STEP",
+              "size": 1624
+            },
+            {
+              "name": "POC_DB_VALUE",
+              "size": 6520
+            },
+            {
+              "name": "TC50C",
+              "size": 26224
+            },
+            {
+              "name": "TC50P",
+              "size": 3400
+            },
+            {
+              "name": "TC50T",
+              "size": 24064
+            },
+            {
+              "name": "TC51T",
+              "size": 3560
+            },
+            {
+              "name": "TC52A",
+              "size": 1336
+            },
+            {
+              "name": "TC55T",
+              "size": 32336
+            },
+            {
+              "name": "TCB13T",
+              "size": 2792
+            }
+          ]
+        },
+        {
+          "name": "PP-SFC",
+          "children": [
+            {
+              "name": "AFKO",
+              "size": 5752
+            },
+            {
+              "name": "AFRU",
+              "size": 5136
+            },
+            {
+              "name": "AFVC",
+              "size": 17200
+            },
+            {
+              "name": "AFVU",
+              "size": 13456
+            },
+            {
+              "name": "AFVV",
+              "size": 23872
+            },
+            {
+              "name": "DRAD_PORDER",
+              "size": 3576
+            },
+            {
+              "name": "NAVP_FUNC_TEXT",
+              "size": 1128
+            },
+            {
+              "name": "TCOPT",
+              "size": 2488
+            },
+            {
+              "name": "TCO_FIELD_TEXT",
+              "size": 5784
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PS",
+      "children": [
+        {
+          "name": "PS-CAF",
+          "children": [
+            {
+              "name": "COFP",
+              "size": 6320
+            }
+          ]
+        },
+        {
+          "name": "PS-IS",
+          "children": [
+            {
+              "name": "RPSCO",
+              "size": 2944
+            },
+            {
+              "name": "TCNDT",
+              "size": 1248
+            },
+            {
+              "name": "TCNFT",
+              "size": 1400
+            },
+            {
+              "name": "TCNVF",
+              "size": 2656
+            },
+            {
+              "name": "TCNVFT",
+              "size": 5216
+            },
+            {
+              "name": "TCNVLT",
+              "size": 1320
+            },
+            {
+              "name": "TPIR2T",
+              "size": 4632
+            }
+          ]
+        },
+        {
+          "name": "PS-SIM",
+          "children": [
+            {
+              "name": "VSAFVC_CN",
+              "size": 1872
+            },
+            {
+              "name": "VSAFVU_CN",
+              "size": 1488
+            },
+            {
+              "name": "VSAFVV_CN",
+              "size": 2384
+            },
+            {
+              "name": "VSSTEU",
+              "size": 1056
+            }
+          ]
+        },
+        {
+          "name": "PS-ST",
+          "children": [
+            {
+              "name": "AFAB",
+              "size": 1152
+            },
+            {
+              "name": "PRPS",
+              "size": 1688
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSM",
+      "children": [
+        {
+          "name": "PSM-FM",
+          "children": [
+            {
+              "name": "BUKF_KF_T",
+              "size": 3128
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PT",
+      "children": [
+        {
+          "name": "PT",
+          "children": [
+            {
+              "name": "PA0005",
+              "size": 2592
+            },
+            {
+              "name": "PA0007",
+              "size": 1656
+            },
+            {
+              "name": "PA0439",
+              "size": 1704
+            },
+            {
+              "name": "PA2001",
+              "size": 6920
+            },
+            {
+              "name": "PA2002",
+              "size": 216848
+            },
+            {
+              "name": "PA2006",
+              "size": 11688
+            },
+            {
+              "name": "PTDW_TIMES_DB",
+              "size": 2504
+            },
+            {
+              "name": "PTDW_WPBP_DB",
+              "size": 1016
+            },
+            {
+              "name": "PTEX2000",
+              "size": 1008
+            },
+            {
+              "name": "PTQUODED",
+              "size": 2192
+            },
+            {
+              "name": "T510S",
+              "size": 1224
+            },
+            {
+              "name": "T510Z",
+              "size": 1464
+            },
+            {
+              "name": "T550S",
+              "size": 1080
+            },
+            {
+              "name": "T552A",
+              "size": 67400
+            },
+            {
+              "name": "T554C",
+              "size": 2384
+            },
+            {
+              "name": "T554O",
+              "size": 1592
+            },
+            {
+              "name": "T554P",
+              "size": 1408
+            },
+            {
+              "name": "T554S",
+              "size": 1040
+            },
+            {
+              "name": "T554T",
+              "size": 4392
+            },
+            {
+              "name": "T555B",
+              "size": 4008
+            },
+            {
+              "name": "T555F",
+              "size": 3672
+            },
+            {
+              "name": "T556B",
+              "size": 1592
+            },
+            {
+              "name": "T556D",
+              "size": 1056
+            },
+            {
+              "name": "T559Q",
+              "size": 3448
+            },
+            {
+              "name": "T559T",
+              "size": 1008
+            },
+            {
+              "name": "T572F",
+              "size": 1192
+            },
+            {
+              "name": "TPT_FIELD_CAT_T",
+              "size": 1048
+            },
+            {
+              "name": "TPT_FIELD_SEL_T",
+              "size": 1560
+            }
+          ]
+        },
+        {
+          "name": "PT-RC",
+          "children": [
+            {
+              "name": "TMW_TDTYPETXT",
+              "size": 2680
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PY",
+      "children": [
+        {
+          "name": "PY",
+          "children": [
+            {
+              "name": "T5H2B",
+              "size": 4184
+            },
+            {
+              "name": "T5T4E",
+              "size": 1152
+            },
+            {
+              "name": "T5T50",
+              "size": 1680
+            },
+            {
+              "name": "T5T51",
+              "size": 1096
+            },
+            {
+              "name": "T5T54",
+              "size": 1320
+            },
+            {
+              "name": "T7SK50",
+              "size": 2048
+            }
+          ]
+        },
+        {
+          "name": "PY-BE",
+          "children": [
+            {
+              "name": "T5BTM",
+              "size": 14576
+            },
+            {
+              "name": "T5BTS",
+              "size": 1336
+            }
+          ]
+        },
+        {
+          "name": "PY-CA",
+          "children": [
+            {
+              "name": "T5UTD",
+              "size": 2872
+            },
+            {
+              "name": "T5UTE",
+              "size": 1256
+            },
+            {
+              "name": "T5UTF",
+              "size": 1184
+            },
+            {
+              "name": "T5UTZ",
+              "size": 2216
+            }
+          ]
+        },
+        {
+          "name": "PY-DE",
+          "children": [
+            {
+              "name": "P01T_AGS",
+              "size": 8392
+            },
+            {
+              "name": "T5D7L",
+              "size": 1192
+            },
+            {
+              "name": "T5D7W",
+              "size": 1240
+            }
+          ]
+        },
+        {
+          "name": "PY-DK",
+          "children": [
+            {
+              "name": "T5M5C",
+              "size": 2128
+            }
+          ]
+        },
+        {
+          "name": "PY-IT",
+          "children": [
+            {
+              "name": "T5ITX1",
+              "size": 1304
+            },
+            {
+              "name": "T5ITX2",
+              "size": 1104
+            }
+          ]
+        },
+        {
+          "name": "PY-US",
+          "children": [
+            {
+              "name": "BTXTAXC",
+              "size": 1584
+            },
+            {
+              "name": "PA0449",
+              "size": 12472
+            },
+            {
+              "name": "PA0451",
+              "size": 10560
+            },
+            {
+              "name": "PA0452",
+              "size": 10616
+            },
+            {
+              "name": "PA0453",
+              "size": 10792
+            },
+            {
+              "name": "T51R4",
+              "size": 1160
+            },
+            {
+              "name": "T51T3",
+              "size": 14824
+            },
+            {
+              "name": "T51T5",
+              "size": 1136
+            },
+            {
+              "name": "T51T7",
+              "size": 1600
+            },
+            {
+              "name": "T5UT3",
+              "size": 3448
+            },
+            {
+              "name": "T5UTA",
+              "size": 1432
+            },
+            {
+              "name": "T5UTB",
+              "size": 1288
+            },
+            {
+              "name": "T5UTR",
+              "size": 2960
+            },
+            {
+              "name": "T5UTW",
+              "size": 1976
+            },
+            {
+              "name": "T5UX1",
+              "size": 1544
+            },
+            {
+              "name": "T7US3PR_TXSYMKO",
+              "size": 1264
+            }
+          ]
+        },
+        {
+          "name": "PY-XX",
+          "children": [
+            {
+              "name": "DSYS_LOHEAD_E_CD",
+              "size": 42080
+            },
+            {
+              "name": "DSYS_PHCONT_CCD2",
+              "size": 1856
+            },
+            {
+              "name": "DSYS_PHCONT_ECD2",
+              "size": 140928
+            },
+            {
+              "name": "DSYS_PHCONT_E_CD",
+              "size": 84936
+            },
+            {
+              "name": "DSYS_PHFILE_ECD2",
+              "size": 198664
+            },
+            {
+              "name": "DSYS_PHFILE_E_CD",
+              "size": 28216
+            },
+            {
+              "name": "DSYS_PHHEAD_ECD2",
+              "size": 60640
+            },
+            {
+              "name": "DSYS_PHHEAD_E_CD",
+              "size": 48440
+            },
+            {
+              "name": "DSYS_PHHYPE_ECD2",
+              "size": 59032
+            },
+            {
+              "name": "DSYS_PHHYPE_E_CD",
+              "size": 35792
+            },
+            {
+              "name": "HRPY_RGDIR",
+              "size": 242280
+            },
+            {
+              "name": "HRPY_WPBP",
+              "size": 200440
+            },
+            {
+              "name": "PCALAC",
+              "size": 35488
+            },
+            {
+              "name": "PCL1",
+              "size": 4848
+            },
+            {
+              "name": "PCL2",
+              "size": 5449296
+            },
+            {
+              "name": "PCL4",
+              "size": 1012936
+            },
+            {
+              "name": "PEVAT",
+              "size": 1480
+            },
+            {
+              "name": "PEVSH",
+              "size": 1696
+            },
+            {
+              "name": "PPDIT",
+              "size": 65984
+            },
+            {
+              "name": "PPDIX",
+              "size": 32328
+            },
+            {
+              "name": "PPDMSG",
+              "size": 4424
+            },
+            {
+              "name": "PPDST",
+              "size": 2736
+            },
+            {
+              "name": "PPOIX",
+              "size": 1375784
+            },
+            {
+              "name": "PPOPX",
+              "size": 247872
+            },
+            {
+              "name": "T511K",
+              "size": 2576
+            },
+            {
+              "name": "T511T",
+              "size": 2472
+            },
+            {
+              "name": "T512D",
+              "size": 3144
+            },
+            {
+              "name": "T512E",
+              "size": 10896
+            },
+            {
+              "name": "T512G",
+              "size": 49736
+            },
+            {
+              "name": "T512K",
+              "size": 3848
+            },
+            {
+              "name": "T512L",
+              "size": 16496
+            },
+            {
+              "name": "T512P",
+              "size": 138680
+            },
+            {
+              "name": "T512Q",
+              "size": 7288
+            },
+            {
+              "name": "T512S",
+              "size": 5504
+            },
+            {
+              "name": "T512W",
+              "size": 32456
+            },
+            {
+              "name": "T514V",
+              "size": 3552
+            },
+            {
+              "name": "T52BA",
+              "size": 4192
+            },
+            {
+              "name": "T52C3",
+              "size": 6440
+            },
+            {
+              "name": "T52C5",
+              "size": 47392
+            },
+            {
+              "name": "T52CE",
+              "size": 2480
+            },
+            {
+              "name": "T52D2",
+              "size": 1016
+            },
+            {
+              "name": "T52D7",
+              "size": 7280
+            },
+            {
+              "name": "T52D8",
+              "size": 9424
+            },
+            {
+              "name": "T52D9",
+              "size": 47224
+            },
+            {
+              "name": "T52DA",
+              "size": 2144
+            },
+            {
+              "name": "T52DB",
+              "size": 19088
+            },
+            {
+              "name": "T52DZ",
+              "size": 1464
+            },
+            {
+              "name": "T52EKT",
+              "size": 1504
+            },
+            {
+              "name": "T52EL",
+              "size": 2088
+            },
+            {
+              "name": "T52EZ",
+              "size": 1552
+            },
+            {
+              "name": "T52SMST",
+              "size": 1032
+            },
+            {
+              "name": "T52ST",
+              "size": 7832
+            },
+            {
+              "name": "T52STH",
+              "size": 68032
+            },
+            {
+              "name": "T549Z",
+              "size": 8320
+            },
+            {
+              "name": "T54C1",
+              "size": 5200
+            },
+            {
+              "name": "T54C3",
+              "size": 1656
+            },
+            {
+              "name": "T596B",
+              "size": 1248
+            },
+            {
+              "name": "T596H",
+              "size": 9616
+            },
+            {
+              "name": "T596I",
+              "size": 1832
+            },
+            {
+              "name": "T5F99FD",
+              "size": 2560
+            },
+            {
+              "name": "T5F99FF",
+              "size": 1744
+            },
+            {
+              "name": "T5F99FFT",
+              "size": 3280
+            },
+            {
+              "name": "T7CCE_DIST_RULET",
+              "size": 1088
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "QM",
+      "children": [
+        {
+          "name": "QM",
+          "children": [
+            {
+              "name": "TQ29T",
+              "size": 3824
+            }
+          ]
+        },
+        {
+          "name": "QM-IM",
+          "children": [
+            {
+              "name": "QAMV",
+              "size": 1528
+            },
+            {
+              "name": "TQ78T",
+              "size": 2088
+            }
+          ]
+        },
+        {
+          "name": "QM-PT",
+          "children": [
+            {
+              "name": "PLMK",
+              "size": 1528
+            },
+            {
+              "name": "QPAC",
+              "size": 2208
+            },
+            {
+              "name": "QPCT",
+              "size": 7112
+            },
+            {
+              "name": "TQ29A",
+              "size": 1664
+            }
+          ]
+        },
+        {
+          "name": "QM-QC",
+          "children": [
+            {
+              "name": "TQG_EVAL_GR_TYPX",
+              "size": 1168
+            }
+          ]
+        },
+        {
+          "name": "QM-QN",
+          "children": [
+            {
+              "name": "TQ81_T",
+              "size": 1192
+            },
+            {
+              "name": "TQ85_T",
+              "size": 6096
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RE",
+      "children": [
+        {
+          "name": "RE",
+          "children": [
+            {
+              "name": "BDSCONT26",
+              "size": 1512
+            },
+            {
+              "name": "TTXBFT",
+              "size": 1360
+            },
+            {
+              "name": "VIBEPP",
+              "size": 6160
+            }
+          ]
+        },
+        {
+          "name": "RE-FX",
+          "children": [
+            {
+              "name": "TIVCDFLOWTYPET",
+              "size": 2104
+            },
+            {
+              "name": "VICDCFOBJ",
+              "size": 9576
+            },
+            {
+              "name": "VICDCFPAY",
+              "size": 10992
+            },
+            {
+              "name": "VIRADOC",
+              "size": 1288
+            },
+            {
+              "name": "VIRADOCITEM",
+              "size": 18544
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SCM",
+      "children": [
+        {
+          "name": "SCM-EM",
+          "children": [
+            {
+              "name": "/SAPTRX/APPTALOG",
+              "size": 6000
+            },
+            {
+              "name": "/SAPTRX/ASFCTPAT",
+              "size": 3896
+            },
+            {
+              "name": "/SAPTRX/FUNCTNT",
+              "size": 1488
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SD",
+      "children": [
+        {
+          "name": "SD",
+          "children": [
+            {
+              "name": "SCEVALTX",
+              "size": 3032
+            },
+            {
+              "name": "SCEVARVAL",
+              "size": 7128
+            }
+          ]
+        },
+        {
+          "name": "SD-BF",
+          "children": [
+            {
+              "name": "T180P",
+              "size": 1696
+            },
+            {
+              "name": "T180S",
+              "size": 1568
+            },
+            {
+              "name": "TVBST",
+              "size": 6216
+            },
+            {
+              "name": "VBFA",
+              "size": 27008
+            },
+            {
+              "name": "VBPA",
+              "size": 37264
+            },
+            {
+              "name": "VBSK",
+              "size": 1424
+            },
+            {
+              "name": "VBUK",
+              "size": 11072
+            },
+            {
+              "name": "VBUP",
+              "size": 3944
+            }
+          ]
+        },
+        {
+          "name": "SD-BIL",
+          "children": [
+            {
+              "name": "/BEV1/EMLGFSPR",
+              "size": 2400
+            },
+            {
+              "name": "KNVI",
+              "size": 1320
+            },
+            {
+              "name": "TVCPF",
+              "size": 8112
+            },
+            {
+              "name": "VBRK",
+              "size": 20664
+            },
+            {
+              "name": "VBRP",
+              "size": 56304
+            },
+            {
+              "name": "VRKPA",
+              "size": 9656
+            },
+            {
+              "name": "VRPMA",
+              "size": 12104
+            }
+          ]
+        },
+        {
+          "name": "SD-CH",
+          "children": [
+            {
+              "name": "/BEV3/CHBFLDSTAT",
+              "size": 22440
+            },
+            {
+              "name": "/BEV3/CHRALG",
+              "size": 1744
+            }
+          ]
+        },
+        {
+          "name": "SD-FT",
+          "children": [
+            {
+              "name": "T604T",
+              "size": 1408
+            },
+            {
+              "name": "T604Z",
+              "size": 1560
+            },
+            {
+              "name": "T605T",
+              "size": 1728
+            },
+            {
+              "name": "T609PPT",
+              "size": 3192
+            },
+            {
+              "name": "T615T",
+              "size": 4816
+            }
+          ]
+        },
+        {
+          "name": "SD-IS",
+          "children": [
+            {
+              "name": "MCVSRFP",
+              "size": 1008
+            }
+          ]
+        },
+        {
+          "name": "SD-MD",
+          "children": [
+            {
+              "name": "KONH",
+              "size": 5680
+            },
+            {
+              "name": "KONP",
+              "size": 6808
+            },
+            {
+              "name": "KOTF501",
+              "size": 1808
+            },
+            {
+              "name": "T683S",
+              "size": 2240
+            },
+            {
+              "name": "T683T",
+              "size": 13688
+            },
+            {
+              "name": "T683U",
+              "size": 2632
+            },
+            {
+              "name": "T685A",
+              "size": 1016
+            },
+            {
+              "name": "T685T",
+              "size": 10296
+            },
+            {
+              "name": "VBOX",
+              "size": 5872
+            }
+          ]
+        },
+        {
+          "name": "SD-POS",
+          "children": [
+            {
+              "name": "WPLST",
+              "size": 1240
+            },
+            {
+              "name": "WPTST",
+              "size": 5336
+            }
+          ]
+        },
+        {
+          "name": "SD-SLS",
+          "children": [
+            {
+              "name": "TVAKZ",
+              "size": 1232
+            },
+            {
+              "name": "TVAPT",
+              "size": 1808
+            },
+            {
+              "name": "TVCPA",
+              "size": 67976
+            },
+            {
+              "name": "VAKPA",
+              "size": 1568
+            },
+            {
+              "name": "VAPMA",
+              "size": 2896
+            },
+            {
+              "name": "VBAK",
+              "size": 5088
+            },
+            {
+              "name": "VBAP",
+              "size": 10920
+            },
+            {
+              "name": "VBEP",
+              "size": 5000
+            },
+            {
+              "name": "VBKD",
+              "size": 2928
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SLL",
+      "children": [
+        {
+          "name": "SLL-ECR",
+          "children": [
+            {
+              "name": "/ECRS/TBTTT",
+              "size": 1504
+            }
+          ]
+        },
+        {
+          "name": "SLL-LEG",
+          "children": [
+            {
+              "name": "/SAPSLL/CUCAPRT",
+              "size": 1552
+            },
+            {
+              "name": "/SAPSLL/CUCMEST",
+              "size": 1904
+            },
+            {
+              "name": "/SAPSLL/CUCPATT",
+              "size": 5328
+            },
+            {
+              "name": "/SAPSLL/CUCPROT",
+              "size": 2064
+            },
+            {
+              "name": "/SAPSLL/CUCPTYT",
+              "size": 1360
+            },
+            {
+              "name": "/SAPSLL/TLEACMT",
+              "size": 2888
+            },
+            {
+              "name": "/SAPSLL/TLEEMET",
+              "size": 3344
+            },
+            {
+              "name": "/SAPSLL/TLEPRAT",
+              "size": 1112
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TR",
+      "children": [
+        {
+          "name": "TR",
+          "children": [
+            {
+              "name": "ATCVO",
+              "size": 9136
+            },
+            {
+              "name": "ATIVO",
+              "size": 16688
+            },
+            {
+              "name": "ATRAS",
+              "size": 5416
+            },
+            {
+              "name": "ATWVO",
+              "size": 1872
+            },
+            {
+              "name": "FLQITEMFI",
+              "size": 3944
+            },
+            {
+              "name": "JBD11",
+              "size": 28840
+            },
+            {
+              "name": "TZC37",
+              "size": 2648
+            },
+            {
+              "name": "TZKVT",
+              "size": 1448
+            },
+            {
+              "name": "TZPAB",
+              "size": 1112
+            },
+            {
+              "name": "VTB_MARKET",
+              "size": 1224
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "XAP",
+      "children": [
+        {
+          "name": "XAP-OSP",
+          "children": [
+            {
+              "name": "/OSP/T_GD_VALUET",
+              "size": 7008
+            },
+            {
+              "name": "/OSP/T_RAUI_PBH",
+              "size": 1064
+            },
+            {
+              "name": "/OSP/T_RAUI_PBHT",
+              "size": 16784
+            },
+            {
+              "name": "/OSP/T_RAUI_SELT",
+              "size": 2280
+            }
+          ]
+        },
+        {
+          "name": "XAP-RPM",
+          "children": [
+            {
+              "name": "/RPM/CAP_B_PLAN",
+              "size": 9048
+            },
+            {
+              "name": "/RPM/CAP_PLAN",
+              "size": 2864
+            },
+            {
+              "name": "/RPM/FIN_B_PLAN",
+              "size": 12936
+            },
+            {
+              "name": "/RPM/FIN_PLAN",
+              "size": 6688
+            },
+            {
+              "name": "RPM_PAGE_ID_T",
+              "size": 1896
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
