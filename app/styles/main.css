@@ -1,29 +1,32 @@
-html, body {
-  font-family: 'Roboto', 'Helvetica', sans-serif;
-  margin: 0;
-  padding: 0;
+html,
+body {
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .chart_container svg {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
-  display: block;
-  overflow-x: scroll;
-  overflow:auto
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+    overflow-x: scroll;
+    overflow: auto
 }
+
 
 /*
 D3js styles
 */
+
 .node {
     cursor: pointer;
 }
 
 .node:hover {
     stroke: #000;
-    stroke-width: 1.5px;
+    /*stroke-width: 1.5px;*/
 }
 
 .node--leaf {
@@ -42,17 +45,19 @@ D3js styles
     pointer-events: none;
 }
 
-.node.circle {
-  cursor: pointer;
-  stroke: #000;
-  stroke-width: .5px;
+.node rect {
+    fill: #ddd;
 }
 
-line.link {
-  fill: none;
-  stroke: #9ecae1;
-  stroke-width: 1.5px;
+.node text {
+    font: 10px "Roboto", Helvetica, Arial, sans-serif;
+    text-anchor: middle;
 }
 
+.node--internal text {
+    font-weight: bold;
+}
 
-
+.node--leaf rect {
+    fill-opacity: 0.6;
+}
