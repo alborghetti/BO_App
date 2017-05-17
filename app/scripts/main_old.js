@@ -132,10 +132,10 @@
         var node = g.selectAll("circle,text");
 
         svg
-        //.style("background", color(-1))
+            //.style("background", color(-1))
             .on("click", function() {
-            zoom(root);
-        });
+                zoom(root);
+            });
 
         zoomTo([root.x, root.y, root.r * 2 + margin]);
 
@@ -179,142 +179,62 @@
         }
     });
 
-    //BO analysis ---------------------------------------------------------------------------------
+    // BO analysis
+    var BOsvg = d3.select("#svgBoAnalysis"),
+        width = +BOsvg.attr("width"),
+        height = +BOsvg.attr("height");
 
-
-    var node,
-        link,
-        root;
-
-    var vis = d3.select("#svgBoAnalysis"),
-        w = +vis.attr("width"),
-        h = +vis.attr("height");
-
-    vis.append("g");
+    var BOcolor = d3.scaleOrdinal(d3.schemeCategory20);
 
     var simulation = d3.forceSimulation()
-        .force("link", d3.forceLink().id(function(d) {
-            return d.id;
-        }))
+        .force("link", d3.forceLink().id(function(d) { return d.id; }))
         .force("charge", d3.forceManyBody())
-        .force("center", d3.forceCenter(w / 2, h / 2));
+        .force("center", d3.forceCenter(width / 2, height / 2));
 
-    d3.json("scripts/dataBO.json", function(error, json) {
+    d3.json("scripts/dataBO.json", function(error, graph) {
         if (error) throw error;
 
+        var link = BOsvg.append("g")
+            .attr("class", "links")
+            .selectAll("line")
+            .data(graph.links)
+            .enter().append("line")
+            .attr("stroke-width", function(d) { return Math.sqrt(d.size); });
 
-        //remove empty children array
-
-        // root = json;
-        // root.fixed = true;
-        // root.x = w / 2;
-        // root.y = h / 2 - 80;
-        root = d3.hierarchy(json);
-        root.fixed = true;
-        root.x = w / 2;
-        root.y = h / 2 - 80;
-        //tree(root);
-        update();
-    });
-
-    function update() {
-        // var nodes = flatten(root),
-        //     links = d3.hierarchy(root).links();
-        var nodes = root.descendants();
-        var links = root.links();
-
-        // Restart the force layout.
-        simulation
-            .nodes(nodes)
-            .on("tick", tick);
-
-        simulation.force("link")
-            .links(links);
-
-
-        // Update the links…
-        link = vis.selectAll("line.link")
-            .data(links, function(d) {
-                return d.target.id;
-            });
-
-        // Enter any new links.
-        link.enter().insert("svg:line", ".node")
-            .attr("class", "link")
-            .attr("x1", function(d) {
-                return d.source.x;
-            })
-            .attr("y1", function(d) {
-                return d.source.y;
-            })
-            .attr("x2", function(d) {
-                return d.target.x;
-            })
-            .attr("y2", function(d) {
-                return d.target.y;
-            });
-
-        // Exit any old links.
-        link.exit().remove();
-
-        // Update the nodes…
-        node = vis.selectAll("circle.node")
-            .data(nodes, function(d) {
-                return d.id;
-            })
-            .style("fill", color);
-
-        node.transition()
-            .attr("r", function(d) {
-                //return d.children.length != null ? 4.5 : Math.sqrt(d.data.size) / 10;
-                return 4.5;
-            });
-
-        // Enter any new nodes.
-        node.enter().append("svg:circle")
-            .attr("class", "node")
-            .attr("cx", function(d) {
-                return d.x;
-            })
-            .attr("cy", function(d) {
-                return d.y;
-            })
-            .attr("r", function(d) {
-                //return d.children.length != null ? 4.5 : Math.sqrt(d.data.size) / 10;
-                return 4.5;
-            })
-            .style("fill", BOcolor)
-            .on("click", click)
+        var node = BOsvg.append("g")
+            .attr("class", "nodes")
+            .selectAll("circle")
+            .data(graph.nodes)
+            .enter().append("circle")
+            .attr("r", 5)
+            .attr("fill", function(d) { return BOcolor(d.bo); })
             .call(d3.drag()
                 .on("start", dragstarted)
                 .on("drag", dragged)
                 .on("end", dragended));
 
-        // Exit any old nodes.
-        node.exit().remove();
-    }
+        node.append("title")
+            .text(function(d) { return d.id; });
 
-    function tick() {
-        link.attr("x1", function(d) {
-                return d.source.x;
-            })
-            .attr("y1", function(d) {
-                return d.source.y;
-            })
-            .attr("x2", function(d) {
-                return d.target.x;
-            })
-            .attr("y2", function(d) {
-                return d.target.y;
-            });
+        simulation
+            .nodes(graph.nodes)
+            .on("tick", ticked);
 
-        node.attr("cx", function(d) {
-                return d.x;
-            })
-            .attr("cy", function(d) {
-                return d.y;
-            });
-    }
+        simulation.force("link")
+            .links(graph.links);
+
+        function ticked() {
+            link
+                .attr("x1", function(d) { return d.source.x; })
+                .attr("y1", function(d) { return d.source.y; })
+                .attr("x2", function(d) { return d.target.x; })
+                .attr("y2", function(d) { return d.target.y; });
+
+            node
+                .attr("cx", function(d) { return d.x; })
+                .attr("cy", function(d) { return d.y; });
+        }
+    });
 
     function dragstarted(d) {
         if (!d3.event.active) simulation.alphaTarget(0.3).restart();
@@ -328,49 +248,9 @@
     }
 
     function dragended(d) {
-        //if (!d3.event.active) simulation.alphaTarget(0);
-        simulation.alphaTarget(0);
+        if (!d3.event.active) simulation.alphaTarget(0);
         d.fx = null;
         d.fy = null;
     }
-
-
-    // Color leaf nodes orange, and packages white or blue.
-    function BOcolor(d) {
-        return d._children ? "#3182bd" : d.children ? "#c6dbef" : "#fd8d3c";
-    }
-
-    // Toggle children on click.
-    function click(d) {
-        if (d.children) {
-            d._children = d.children;
-            d.children = null;
-        } else {
-            d.children = d._children;
-            d._children = null;
-        }
-        update();
-    }
-
-    // Returns a list of all nodes under the root.
-    function flatten(root) {
-        var nodes = [],
-            i = 0;
-
-        function recurse(node) {
-            if (node.children) node.size = node.children.reduce(function(p, v) {
-                return p + recurse(v);
-            }, 0);
-            if (!node.id) node.id = ++i;
-            nodes.push(node);
-            return node.size;
-        }
-
-        root.size = recurse(root);
-        // root.size = 10;
-        // nodes.push(root);
-        return nodes;
-    }
-
 
 })();
