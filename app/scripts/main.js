@@ -1,22 +1,23 @@
-/*!
- *
- *  Web Starter Kit
- *  Copyright 2015 Google Inc. All rights reserved.
- *
- *  Licensed under the Apache License, Version 2.0 (the "License");
- *  you may not use this file except in compliance with the License.
- *  You may obtain a copy of the License at
- *
- *    https://www.apache.org/licenses/LICENSE-2.0
- *
- *  Unless required by applicable law or agreed to in writing, software
- *  distributed under the License is distributed on an "AS IS" BASIS,
- *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- *  See the License for the specific language governing permissions and
- *  limitations under the License
- *
- */
 /* eslint-env browser */
+var gclosure = {
+
+    groot: [],
+
+    gclick: function() {}
+};
+
+
+function bclick() {
+    var roots = gclosure.groot;
+
+    if (roots.length > 1) {
+        roots.pop();
+    }
+
+
+    gclosure.gclick(roots[roots.length - 1]);
+};
+
 (function() {
     'use strict';
 
@@ -80,7 +81,7 @@
 
     var color = d3.scaleLinear()
         .domain([-1, 5])
-        .range(["hsl( 199.5, 18.3%, 46.1%)", "hsl(45, 100%, 51%)"])
+        .range(["hsl(202, 100%, 39% )", "hsl(205, 5%, 93%)"])
         .interpolate(d3.interpolateHcl);
 
     var pack = d3.pack()
@@ -182,20 +183,16 @@
     //Based on zoomable partition
 
     var vis = d3.select("#svgBoAnalysis"),
+        gvis,
         w = +vis.attr("width"),
         h = +vis.attr("height"),
-        x = d3.scaleLinear().range([0, w]),
-        y = d3.scaleLinear().range([0, h]),
         root;
-    //gvis = vis.append("g");
 
     var format = d3.format(",d");
 
-    var BOcolor = d3.scaleOrdinal(d3.schemeCategory10);
-
-    vis.attr("class", "chart")
-        .style("width", w + "px")
-        .style("height", h + "px");
+    //var BOcolor = d3.scaleOrdinal(d3.schemeCategory10);
+    var BOcolor = d3.scaleOrdinal(["hsl(203, 48%, 57% )", "hsl(205, 5%, 93%)"]);
+    vis.attr("class", "chart");
 
     var partition = d3.partition()
         .size([h, w])
@@ -204,9 +201,6 @@
 
     d3.json("scripts/dataBO.json", function(error, json) {
         if (error) throw error;
-
-        var focus = root,
-            view;
 
         root = d3.hierarchy(json);
 
@@ -219,15 +213,31 @@
 
         partition(root);
 
-        var gvis = vis.selectAll("g")
-            .data(root.descendants())
+        gclosure.groot.push(root);
+
+        var nodes = root.descendants();
+
+        update(nodes);
+
+    });
+
+    function update(nodes) {
+
+        var parent = nodes[0].data.id;
+
+        gvis = vis.selectAll("g")
+            .data(nodes)
             .enter().append("g")
+            .attr("id", function(d) {
+                return parent + (d.children ? "node--internal" : "-node--leaf");
+            })
             .attr("class", function(d) {
                 return "node" + (d.children ? " node--internal" : " node--leaf");
             })
             .attr("transform", function(d) {
                 return "translate(" + d.y0 + "," + d.x0 + ")";
-            });
+            })
+            .on("click", click);
 
         gvis.append("rect")
             .attr("id", function(d) {
@@ -246,6 +256,7 @@
                 while (d.depth > 1) d = d.parent;
                 return BOcolor(d.id);
             });
+
 
         gvis.append("clipPath")
             .attr("id", function(d) {
@@ -276,21 +287,35 @@
                 return d.data.id + "\n" + format(d.value);
             });
 
-               
-        var zoom = d3.zoom()
-            .scaleExtent([1, 40])
-            .translateExtent([
-                [-100, -100],
-                [w + 90, h + 100]
-            ])
-            .on("zoom", zoomed);
-        vis.call(zoom);
+    }
 
-        function zoomed() {
-            gvis.attr("transform", d3.event.transform);
-            gX.call(xAxis.scale(d3.event.transform.rescaleX(x)));
-            gY.call(yAxis.scale(d3.event.transform.rescaleY(y)));
+    var click = function(d) {
+        if (!d.children) return;
+
+        var gRoots = gclosure.groot;
+
+        vis.selectAll("*").remove();
+
+        var newRoot = partition(d.copy());
+
+        if (newRoot.data.id != gRoots[gRoots.length - 1].data.id) {
+            gRoots.push(newRoot);
         }
 
-    });
+        // Activate back button
+        if (gRoots.length > 1) {
+            var button = d3.select("#backBoAnalysis")
+                .attr('disabled', null);
+        } else {
+            var button = d3.select("#backBoAnalysis")
+                .attr('disabled', '');
+        }
+
+        var nodes = newRoot.descendants();
+        update(nodes);
+    }
+
+    gclosure.gclick = click;
+
+
 })();

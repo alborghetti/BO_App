@@ -24,10 +24,13 @@ D3js styles
     cursor: pointer;
 }
 
-.node:hover {
+circle:hover {
     stroke: #000;
-    /*stroke-width: 1.5px;*/
+    stroke-width: 1.5px;
+
 }
+
+
 
 .node--leaf {
     fill: white;
@@ -46,16 +49,17 @@ D3js styles
 }
 
 .node rect {
-    fill: #ddd;
+    fill: #4c7791;
 }
 
 .node text {
-    font: 10px "Roboto", Helvetica, Arial, sans-serif;
+    font: 14px "Roboto", Helvetica, Arial, sans-serif;
     text-anchor: middle;
 }
 
 .node--internal text {
-    font-weight: bold;
+    /*font-weight: bold;*/
+    fill: white;
 }
 
 .node--leaf rect {
